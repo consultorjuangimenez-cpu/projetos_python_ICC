@@ -1,0 +1,17 @@
+{
+    admin 127.0.0.1:2019
+}
+
+10.10.10.154 {
+    tls internal
+
+    reverse_proxy 127.0.0.1:8080 {
+        header_up X-ICC-HTTPS-Proxy "1"
+    }
+
+    header {
+        X-Content-Type-Options "nosniff"
+        Referrer-Policy "no-referrer"
+        X-Frame-Options "SAMEORIGIN"
+    }
+}

@@ -1,0 +1,5 @@
+﻿Autoridade HTTPS pÃºblica do Portal ICC
+Servidor: https://10.10.10.154/
+SHA256 do certificado (DER): E973531E7116354079EB7FBD1C985D03EF56D07FF997F53C3F30CEB7958B0D89
+Gerado em: 2026-09-11 11:13:20
+IMPORTANTE: este pacote contÃ©m somente o certificado pÃºblico. Nunca copie root.key ou qualquer chave privada do Caddy.

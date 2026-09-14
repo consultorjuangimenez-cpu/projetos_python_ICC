@@ -1,0 +1,15 @@
+{"level":"info","ts":1789156852.5032527,"msg":"maxprocs: Leaving GOMAXPROCS=12: CPU quota undefined"}
+{"level":"info","ts":1789156852.504259,"msg":"GOMEMLIMIT is updated","GOMEMLIMIT":15170431795,"previous":9223372036854775807}
+{"level":"info","ts":1789156852.504259,"msg":"using config from file","file":"C:\\C\\Projetos_Phyton\\Portal_Apps\\https_icc\\Caddyfile"}
+{"level":"info","ts":1789156852.504259,"msg":"adapted config to JSON","adapter":"caddyfile"}
+{"level":"warn","ts":1789156852.504259,"msg":"Caddyfile input is not formatted; run 'caddy fmt --overwrite' to fix inconsistencies","adapter":"caddyfile","file":"C:\\C\\Projetos_Phyton\\Portal_Apps\\https_icc\\Caddyfile","line":2}
+{"level":"warn","ts":1789156852.504259,"logger":"admin","msg":"admin endpoint disabled"}
+{"level":"info","ts":1789156852.504259,"logger":"tls.cache.maintenance","msg":"started background certificate maintenance","cache":"0x3767a953dd00"}
+{"level":"info","ts":1789156852.5062594,"logger":"http.auto_https","msg":"automatic HTTP->HTTPS redirects are disabled","server_name":"srv0"}
+{"level":"info","ts":1789156852.5084054,"logger":"http.log","msg":"server running","name":"srv0","protocols":["h1","h2"]}
+{"level":"info","ts":1789156852.5084054,"logger":"http","msg":"enabling automatic TLS certificate management","domains":["10.10.10.154"]}
+{"level":"info","ts":1789156852.5084054,"logger":"pki.ca.local","msg":"root certificate trust store installation disabled; unconfigured clients may show warnings","path":"storage:pki/authorities/local/root.crt"}
+{"level":"info","ts":1789156852.5094044,"msg":"autosaved config (load with --resume flag)","file":"C:\\Users\\ICC_TI\\AppData\\Roaming\\Caddy\\autosave.json"}
+{"level":"info","ts":1789156852.5094044,"msg":"serving initial configuration"}
+{"level":"info","ts":1789156852.5135286,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:C:/C/Projetos_Phyton/Portal_Apps/dados/caddy_https","instance":"f2b593a8-5904-49f2-a5f3-401482b054db","try_again":1789243252.5135286,"try_again_in":86400}
+{"level":"info","ts":1789156852.514531,"logger":"tls","msg":"finished cleaning storage units"}

@@ -1,0 +1,4 @@
+11/09/2026 17:00:15 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
+2026-09-11 17:00:16,121 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+Backend do portal em 127.0.0.1:8081; acesso externo somente pelo proxy HTTPS local.
+2026-09-11 17:00:16,226 | INFO | waitress | Serving on http://127.0.0.1:8081

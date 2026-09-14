@@ -1,0 +1,76 @@
+ATUALIZAÇÃO DO PORTAL EXISTENTE: NOVOS APPS + SENHAS DE 4 CARACTERES
+
+Este pacote é uma atualização para o portal COM LOGIN que já funciona.
+Não é um portal completo e não deve ser executado em uma pasta separada.
+Não contém Buscar PDFs, Planilha Amanda, config.ini ou o banco de usuários.
+
+COMO APLICAR
+1. Aguarde as rotinas terminarem e pare o portal com Ctrl+C.
+2. Faça uma cópia de segurança da pasta atual do portal.
+3. Extraia este ZIP. Copie TODO O CONTEÚDO extraído para a pasta atual do portal,
+   a mesma onde já existe servidor.py. Mescle as pastas apps/, portal/ e docs/.
+   Aceite substituir somente os arquivos com o mesmo nome.
+   NÃO apague a pasta apps/ antiga para colocar a nova: mescle as pastas.
+4. Na raiz do portal atual, execute ATUALIZAR_PORTAL.bat.
+   Ele acrescenta os apps no aplicativos.json, inclui as configurações ausentes
+   em config_apps.ini e instala as bibliotecas adicionais.
+   Cadastros existentes, nomes personalizados, ativo/inativo e caminhos já
+   configurados são mantidos. Repetir o BAT não duplica o cadastro.
+5. Abra config_apps.ini e confira os caminhos dos novos aplicativos.
+6. Para Emitir Guias, execute 5_instalar_navegador_guias.bat.
+   Se já instalou o Chromium nessa conta Windows, não é necessário repetir.
+7. Execute 6_verificar_configuracao.bat se quiser conferir bibliotecas e pastas.
+8. Execute o 2_iniciar_portal.bat que já existe na sua pasta e atualize o navegador
+   com Ctrl+F5 para carregar os novos limites dos formulários.
+9. Entre em Gerenciar usuários e libere os novos apps para cada pessoa.
+
+SENHAS
+- Mínimo: 4 caracteres. Máximo: 128 caracteres.
+- Senhas numéricas simples são aceitas, inclusive 1234.
+- Vale para cadastro, redefinição pela administração, alteração da própria senha
+  e criação inicial do administrador.
+- Nenhuma senha atual é alterada automaticamente. Para usar 1234 em uma conta
+  existente, edite o usuário e preencha os dois campos de senha com 1234.
+- Deixar os campos de senha vazios na edição mantém a senha existente.
+- As senhas continuam armazenadas como hash, e login/permissões permanecem ativos.
+- As instruções deste arquivo substituem o mínimo de 10 caracteres informado
+  nos documentos de versões anteriores.
+
+CONTEÚDO INCREMENTAL
+apps/
+  buscar_pdf_cnpj/
+  carta_frete/
+  buscar_nfe/
+  emite_guia/
+  aberturas/
+  analise_emails/
+  analisa_certificados/
+  monitora_certificados/
+
+portal/
+  integracao.py, tarefas.py, verificar.py: suporte aos novos aplicativos.
+  atualizar_pacote.py: inclusão dos novos cadastros/configurações.
+  usuarios.py, primeiro_admin.py: validação de senha com mínimo de 4 caracteres.
+  templates/usuario_editar.html, templates/senha.html: formulários correspondentes.
+  templates/portal.html: menu com rolagem para acomodar os aplicativos.
+
+novos_aplicativos.json: somente as oito entradas novas.
+config_apps.novos.ini: exemplos usados para incluir opções que ainda não existem.
+requirements_novos.txt: bibliotecas necessárias aos novos apps.
+ATUALIZAR_PORTAL.bat: aplica o cadastro e instala dependências.
+
+PRESERVAÇÃO E BACKUP
+config.ini e dados/ não fazem parte do pacote nem são escritos pelo atualizador.
+O banco de usuários, a chave de sessão, os resultados anteriores e as permissões
+existentes são preservados. Os apps Buscar PDFs e Amanda não são substituídos.
+O atualizador salva uma cópia dos cadastros/configurações alterados em
+backups_atualizacao/. A cópia de segurança do passo 2 preserva também o código.
+Se detectar rota ou módulo em conflito, o atualizador informa o problema e não
+altera os cadastros. A instalação de bibliotecas exige internet no notebook.
+Se a instalação falhar, corrija o erro e repita o BAT antes de iniciar o portal.
+
+INFORMAÇÕES DOS APPS
+Consulte docs/APLICATIVOS_E_CONFIGURACOES.md para caminhos, SMTP e relatórios.
+Instala Certificados, Desbloquear_PDF e Segue_Mouse continuam como rotinas locais;
+consulte docs/PROJETOS_WINDOWS.md. Não foram acrescentados ao menu.
+O portal permanece no mesmo endereço interno e na mesma porta.

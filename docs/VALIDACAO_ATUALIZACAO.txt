@@ -1,0 +1,23 @@
+TESTES DESTA ATUALIZAÇÃO
+- Aplicação do pacote sobre uma cópia isolada do Portal_Apps_Login.
+- Inclusão dos novos apps preservando cadastros extras e nomes personalizados.
+- Preservação de um app já cadastrado como inativo.
+- Preservação exata dos arquivos dos apps Buscar PDFs e Planilha Amanda.
+- Preservação exata do banco, chave de sessão e config.ini durante a atualização.
+- Preservação de caminhos e opções personalizadas em config_apps.ini.
+- Segunda aplicação sem duplicar cadastros ou reescrever configurações.
+- Conflito de rota detectado antes de alterar os cadastros.
+- Cadastro de usuário com senha 1234 pela tela de administração e login real.
+- Redefinição de senha antiga para 1234 pela administração.
+- Alteração da própria senha de 1234 para 4321 pelo formulário.
+- Criação inicial de administrador com senha 1234 em banco de teste separado.
+- Edição com senha vazia mantém a senha atual.
+- Login com as senhas anteriores continua funcionando.
+- Rejeição de senhas com menos de 4 ou mais de 128 caracteres.
+- Validação de minlength=4 nos formulários e da sintaxe Python.
+- Permissão por aplicativo continua bloqueando a URL não autorizada.
+
+Os testes dos oito apps permanecem descritos em VALIDACAO_INTEGRACAO.txt.
+Este pacote altera sua forma de instalação e o tamanho mínimo de senha.
+Os BATs precisam ser conferidos no Windows; o atualizador Python foi executado
+nos testes. Nenhuma senha real de usuário foi acessada ou alterada.

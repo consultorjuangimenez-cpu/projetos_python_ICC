@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aplicações | ICC Contabilidade</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#edf2f7;color:#203246;font-size:16px}.layout{display:flex;height:100vh}aside{width:270px;overflow-y:auto;flex-shrink:0;background:#142c45;color:white;padding:22px 16px;display:flex;flex-direction:column}.brand{font-size:21px;font-weight:700;letter-spacing:.3px;padding:0 12px}.brand small{display:block;font-size:14px;font-weight:400;color:#b5cce2;margin-top:7px}.label{font-size:14px;color:#b5cce2;margin:24px 12px 12px}nav a{margin-bottom:8px;display:block;color:white;text-decoration:none;border-radius:7px;padding:15px;background:#285577;border-left:3px solid #80c9f4}nav a:not([aria-current]){background:transparent;border-left-color:transparent}nav a:focus-visible{outline:3px solid white;outline-offset:3px}.foot{margin-top:auto;padding:30px 12px 0;color:#b5cce2;font-size:14px;line-height:1.6}.workspace{flex:1;min-width:0;display:flex;flex-direction:column}.top{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 28px;background:white;border-bottom:1px solid #d7e1ea}.top strong{font-size:19px}.badge{font-size:14px;padding:7px 12px;background:#eaf2f8;color:#285577;border-radius:5px}iframe{width:100%;flex:1;border:0;min-height:calc(100vh - 80px)}@media(max-width:700px){.layout{display:block;height:auto}aside{width:100%;padding:16px}.brand{font-size:18px}.brand small,.label,.foot{display:none}nav{margin-top:16px}.top{padding:16px}iframe{min-height:80vh}}
+.foot a{color:white;display:inline-block;margin-top:12px}.foot button{background:#fff;color:#142c45;border:0;border-radius:5px;font:inherit;padding:8px 20px;cursor:pointer;margin-top:15px}@media(max-width:700px){.foot{display:block;padding:12px}}
+</style>
+</head>
+<body><div class="layout">
+<aside><div class="brand">ICC Contabilidade<small>Central de aplicações</small></div><div class="label">APLICATIVOS</div><nav aria-label="Aplicativos">{% for app in aplicativos %}<a href="{{ app.rota }}/" target="aplicativo" {% if loop.first %}aria-current="page"{% endif %} data-title="{{ app.nome }}" data-badge="{{ app.descricao }}">{{ app.nome }}</a>{% endfor %}</nav><div class="foot"><strong>{{ usuario.name }}</strong><br>{% if usuario.admin %}<a href="/admin/usuarios">Gerenciar usuários</a><br>{% endif %}<a href="/minha-senha">Alterar minha senha</a><form action="/sair" method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><button type="submit">Sair</button></form></div></aside>
+<main class="workspace">{% if aplicativos %}<div class="top"><strong id="app-title">{{ aplicativos[0].nome }}</strong><span class="badge" id="app-badge">{{ aplicativos[0].descricao }}</span></div><iframe name="aplicativo" src="{{ aplicativos[0].rota }}/" title="Aplicativo selecionado"></iframe>{% else %}<div style="padding:32px"><h1>Nenhum aplicativo liberado</h1><p>Solicite ao administrador a liberação dos projetos que você precisa utilizar.</p></div>{% endif %}</main>
+</div><script>
+document.querySelectorAll('nav a').forEach(link => {
+    link.addEventListener('click', () => {
+        document.querySelectorAll('nav a').forEach(item => item.removeAttribute('aria-current'));
+        link.setAttribute('aria-current', 'page');
+        document.getElementById('app-title').textContent = link.dataset.title;
+        document.getElementById('app-badge').textContent = link.dataset.badge;
+    });
+});
+</script></body></html>

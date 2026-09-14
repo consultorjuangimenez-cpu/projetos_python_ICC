@@ -1,0 +1,9 @@
+11/09/2026 16:00:53 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
+2026-09-11 16:00:53,398 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+Backend do portal em 127.0.0.1:8081; acesso externo somente pelo proxy HTTPS local.
+2026-09-11 16:00:53,519 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-11 16:20:11,614 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:22:46,040 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:22:59,467 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:48:58,462 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-11-09-2026_2026-09-11_08-41-21.xlsx | modificado=2026-09-11T08:41:15.804619 | candidatos=5
+2026-09-11 16:48:58,895 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-11-09-26_2026-09-11_08-41-34.xlsx | modificado=2026-09-11T08:41:30.145569 | candidatos=5

@@ -1,0 +1,25 @@
+{
+  "projeto": {
+    "nome": "Buscar PDFs por CNPJ",
+    "slug": "buscar_pdfs_cnpj"
+  },
+  "pastas": {
+    "documentos": "F:\\Documentos\\Rafael",
+    "indice": "dados/indice_pdfs.sqlite3",
+    "logs": "logs"
+  },
+  "busca": {
+    "resultado_expira_minutos": 30,
+    "maximo_arquivos_por_zip": 500,
+    "memoria_zip_mb": 50
+  },
+  "web": {
+    "host": "127.0.0.1",
+    "porta": 5000,
+    "debug": false
+  },
+  "logs": {
+    "nivel": "INFO",
+    "dias_retencao": 90
+  }
+}

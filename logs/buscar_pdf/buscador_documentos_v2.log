@@ -1,0 +1,1724 @@
+2026-09-08 08:18:47,056 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:24:03,043 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:30,115 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:31,089 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:31,788 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:31,959 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:32,151 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:32,339 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:32,542 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:32,723 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:32,908 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:33,108 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:33,299 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:33,485 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:33,803 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,019 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,214 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,417 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,590 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,769 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:34,963 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:42,336 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:42,508 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:42,691 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:42,864 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:43,048 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:27:43,214 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:30:16,966 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:42:15,113 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:31,464 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,048 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,243 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,407 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,584 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,766 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:32,937 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:33,115 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:33,308 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:33,507 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:33,693 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:33,873 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:34,056 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:34,254 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:34,439 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:38,280 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:38,434 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:38,602 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:38,758 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:38,913 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:39,056 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:39,204 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:39,365 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:50,855 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,038 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,205 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,375 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,547 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,718 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:51,888 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,073 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,240 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,400 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,563 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,730 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:52,899 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,046 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,201 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,372 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,522 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,683 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,842 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:53,990 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,146 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,307 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,491 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,653 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,818 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:54,979 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:55,143 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:55,318 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:55,485 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:46:55,658 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:49:57,211 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:49:59,459 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 08:52:07,262 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:08:30,548 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:08:33,656 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:09:38,293 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:18:26,932 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x69e41 for key /.notdef
+2026-09-08 09:18:26,973 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a6c6 for key /.notdef
+2026-09-08 09:18:26,974 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a8eb for key /.notdef
+2026-09-08 09:26:49,139 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 09:26:49,140 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 09:27:20,359 | WARNING | pypdf._reader | Ignoring wrong pointing object 46 0 (offset 0)
+2026-09-08 09:27:20,551 | WARNING | pypdf._reader | Ignoring wrong pointing object 232 0 (offset 0)
+2026-09-08 09:27:21,359 | WARNING | pypdf._reader | Ignoring wrong pointing object 76 0 (offset 0)
+2026-09-08 09:27:23,879 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:23,879 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:23,880 | WARNING | pypdf._reader | Ignoring wrong pointing object 16 65536 (offset 0)
+2026-09-08 09:27:24,051 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,051 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,051 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:24,051 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:27:24,188 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,190 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,190 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:24,191 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:27:24,323 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,324 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,326 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:24,326 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:27:24,327 | WARNING | pypdf._reader | Ignoring wrong pointing object 29 65536 (offset 0)
+2026-09-08 09:27:24,496 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,496 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,497 | WARNING | pypdf._reader | Ignoring wrong pointing object 16 65536 (offset 0)
+2026-09-08 09:27:24,622 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,623 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,623 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:24,623 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:27:24,752 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:24,753 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:24,754 | WARNING | pypdf._reader | Ignoring wrong pointing object 16 65536 (offset 0)
+2026-09-08 09:27:24,754 | WARNING | pypdf._reader | Ignoring wrong pointing object 25 65536 (offset 0)
+2026-09-08 09:27:25,993 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:25,994 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:25,994 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:25,994 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:27:25,994 | WARNING | pypdf._reader | Ignoring wrong pointing object 29 65536 (offset 0)
+2026-09-08 09:27:26,109 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:27:26,110 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:27:26,110 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:27:26,110 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:28:49,684 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,689 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,690 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,691 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,692 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,694 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,695 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,696 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,697 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,698 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,699 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:28:49,700 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:19,937 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3cf for key /Info
+2026-09-08 09:30:19,937 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3dc for key /Info
+2026-09-08 09:30:19,937 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3e9 for key /Info
+2026-09-08 09:30:20,045 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3cf for key /Info
+2026-09-08 09:30:20,046 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3dc for key /Info
+2026-09-08 09:30:20,046 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6e3e9 for key /Info
+2026-09-08 09:30:36,796 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,797 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,799 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,800 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,802 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,803 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,804 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,805 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,936 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,939 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,940 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:36,941 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,087 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,090 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,091 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,092 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,094 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,095 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,097 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,098 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,643 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,646 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,647 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:30:38,648 | ERROR | pypdf._cmap | Advanced encoding /KSCms-UHC-H not implemented yet
+2026-09-08 09:31:12,987 | WARNING | pypdf._reader | Ignoring wrong pointing object 34 0 (offset 0)
+2026-09-08 09:31:15,074 | WARNING | pypdf._reader | Ignoring wrong pointing object 33 0 (offset 0)
+2026-09-08 09:31:34,837 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 09:31:58,447 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x36fe9 for key /Info
+2026-09-08 09:31:58,447 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x36ff5 for key /Info
+2026-09-08 09:31:58,447 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x37001 for key /Info
+2026-09-08 09:31:58,737 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e0e for key /Info
+2026-09-08 09:31:58,737 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e1a for key /Info
+2026-09-08 09:31:58,738 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e26 for key /Info
+2026-09-08 09:31:59,704 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa05b for key /Info
+2026-09-08 09:31:59,705 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa068 for key /Info
+2026-09-08 09:31:59,705 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa075 for key /Info
+2026-09-08 09:31:59,927 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e2f0 for key /Info
+2026-09-08 09:31:59,928 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e2fd for key /Info
+2026-09-08 09:31:59,928 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e30a for key /Info
+2026-09-08 09:32:14,384 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 09:33:46,150 | WARNING | pypdf._reader | Ignoring wrong pointing object 16 0 (offset 0)
+2026-09-08 09:33:46,151 | WARNING | pypdf._reader | Ignoring wrong pointing object 42 0 (offset 0)
+2026-09-08 09:33:46,151 | WARNING | pypdf._reader | Ignoring wrong pointing object 44 0 (offset 0)
+2026-09-08 09:38:38,530 | WARNING | pypdf._reader | invalid pdf header: b'\x0bsuel'
+2026-09-08 09:38:38,532 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 09:38:52,347 | WARNING | pypdf._reader | Ignoring wrong pointing object 1 65536 (offset 0)
+2026-09-08 09:38:52,348 | WARNING | pypdf._reader | Ignoring wrong pointing object 11 65536 (offset 0)
+2026-09-08 09:38:52,348 | WARNING | pypdf._reader | Ignoring wrong pointing object 15 65536 (offset 0)
+2026-09-08 09:38:52,348 | WARNING | pypdf._reader | Ignoring wrong pointing object 20 65536 (offset 0)
+2026-09-08 09:38:52,349 | WARNING | pypdf._reader | Ignoring wrong pointing object 29 65536 (offset 0)
+2026-09-08 09:39:10,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64306 for key /Info
+2026-09-08 09:39:10,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64313 for key /Info
+2026-09-08 09:39:10,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64320 for key /Info
+2026-09-08 09:39:10,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x39c04 for key /Info
+2026-09-08 09:39:10,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x39c10 for key /Info
+2026-09-08 09:39:10,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x39c1c for key /Info
+2026-09-08 09:40:11,942 | WARNING | pypdf._reader | Ignoring wrong pointing object 222 0 (offset 0)
+2026-09-08 09:40:52,035 | WARNING | pypdf._reader | Ignoring wrong pointing object 23 0 (offset 0)
+2026-09-08 09:40:52,752 | WARNING | pypdf._reader | Ignoring wrong pointing object 8 0 (offset 0)
+2026-09-08 09:40:52,784 | WARNING | pypdf._reader | Ignoring wrong pointing object 8 0 (offset 0)
+2026-09-08 09:40:52,813 | WARNING | pypdf._reader | Ignoring wrong pointing object 8 0 (offset 0)
+2026-09-08 09:40:52,914 | WARNING | pypdf._reader | Ignoring wrong pointing object 61 0 (offset 0)
+2026-09-08 09:41:13,435 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:41:49,441 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xa3c9e for key /Info
+2026-09-08 09:41:49,444 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xa3caa for key /Info
+2026-09-08 09:41:49,444 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xa3cb6 for key /Info
+2026-09-08 09:42:04,839 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x22ce00 for key /Info
+2026-09-08 09:42:04,840 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x22ce0d for key /Info
+2026-09-08 09:42:04,840 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x22ce1a for key /Info
+2026-09-08 09:42:04,963 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xeb200 for key /Info
+2026-09-08 09:42:04,964 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xeb20d for key /Info
+2026-09-08 09:42:04,964 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xeb21a for key /Info
+2026-09-08 09:42:14,420 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x207bcf for key /Info
+2026-09-08 09:42:14,420 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x207bdc for key /Info
+2026-09-08 09:42:14,420 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x207be9 for key /Info
+2026-09-08 09:42:19,556 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71259 for key /Info
+2026-09-08 09:42:19,557 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71265 for key /Info
+2026-09-08 09:42:19,557 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71271 for key /Info
+2026-09-08 09:42:26,984 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c3a for key /Info
+2026-09-08 09:42:26,984 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c46 for key /Info
+2026-09-08 09:42:26,985 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c52 for key /Info
+2026-09-08 09:42:27,921 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11ff0c for key /Info
+2026-09-08 09:42:27,922 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11ff19 for key /Info
+2026-09-08 09:42:27,922 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11ff26 for key /Info
+2026-09-08 09:42:33,452 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71259 for key /Info
+2026-09-08 09:42:33,453 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71265 for key /Info
+2026-09-08 09:42:33,453 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71271 for key /Info
+2026-09-08 09:42:42,074 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1386e6 for key /Info
+2026-09-08 09:42:42,074 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1386f3 for key /Info
+2026-09-08 09:42:42,075 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x138700 for key /Info
+2026-09-08 09:42:45,186 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c3a for key /Info
+2026-09-08 09:42:45,186 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c46 for key /Info
+2026-09-08 09:42:45,186 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x67c52 for key /Info
+2026-09-08 09:42:45,620 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,620 | WARNING | pypdf._reader | Invalid stream (index 6) within object 48 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,621 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,621 | WARNING | pypdf._reader | Invalid stream (index 7) within object 49 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,622 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,622 | WARNING | pypdf._reader | Invalid stream (index 8) within object 50 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,623 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,623 | WARNING | pypdf._reader | Invalid stream (index 9) within object 51 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,624 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,624 | WARNING | pypdf._reader | Invalid stream (index 10) within object 52 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,624 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,624 | WARNING | pypdf._reader | Invalid stream (index 11) within object 53 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,625 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,625 | WARNING | pypdf._reader | Invalid stream (index 12) within object 54 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,626 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,626 | WARNING | pypdf._reader | Invalid stream (index 13) within object 55 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,627 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,627 | WARNING | pypdf._reader | Invalid stream (index 14) within object 56 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,628 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,628 | WARNING | pypdf._reader | Invalid stream (index 15) within object 57 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,628 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,628 | WARNING | pypdf._reader | Invalid stream (index 16) within object 58 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,629 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,629 | WARNING | pypdf._reader | Invalid stream (index 17) within object 59 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,629 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,630 | WARNING | pypdf._reader | Invalid stream (index 18) within object 60 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,630 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,630 | WARNING | pypdf._reader | Invalid stream (index 19) within object 61 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,631 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,632 | WARNING | pypdf._reader | Invalid stream (index 20) within object 62 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,632 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,633 | WARNING | pypdf._reader | Invalid stream (index 21) within object 63 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,633 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,633 | WARNING | pypdf._reader | Invalid stream (index 22) within object 64 0: Stream has ended unexpectedly
+2026-09-08 09:42:45,634 | WARNING | pypdf.generic._data_structures | PdfStreamError('Stream has ended unexpectedly')
+2026-09-08 09:42:45,634 | WARNING | pypdf._reader | Invalid stream (index 23) within object 65 0: Stream has ended unexpectedly
+2026-09-08 09:42:50,554 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 09:42:50,555 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 09:42:55,000 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 09:44:03,669 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1e8a13 for key /Info
+2026-09-08 09:44:03,669 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1e8a20 for key /Info
+2026-09-08 09:44:03,670 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1e8a2d for key /Info
+2026-09-08 09:44:53,791 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 09:45:40,414 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 09:46:17,919 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:47:08,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xef41b for key /Info
+2026-09-08 09:47:08,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xef428 for key /Info
+2026-09-08 09:47:08,647 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xef435 for key /Info
+2026-09-08 09:47:08,777 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x77a4e for key /Info
+2026-09-08 09:47:08,777 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x77a5a for key /Info
+2026-09-08 09:47:08,778 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x77a66 for key /Info
+2026-09-08 09:47:20,902 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:47:25,866 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:47:28,468 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 09:47:28,468 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 09:48:01,383 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 09:48:01,383 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 09:49:42,206 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xb8c62 for key /Info
+2026-09-08 09:49:42,206 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xb8c6f for key /Info
+2026-09-08 09:49:42,206 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xb8c7c for key /Info
+2026-09-08 09:51:55,683 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 09:55:24,756 | WARNING | pypdf._reader | Ignoring wrong pointing object 42 0 (offset 0)
+2026-09-08 09:55:37,896 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 09:55:41,885 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x70c1f7 for key /Info
+2026-09-08 09:55:41,885 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x70c204 for key /Info
+2026-09-08 09:55:41,885 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x70c211 for key /Info
+2026-09-08 09:56:38,167 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x27582b for key /Info
+2026-09-08 09:56:38,167 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x275838 for key /Info
+2026-09-08 09:56:38,167 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x275845 for key /Info
+2026-09-08 09:57:10,351 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ea29 for key /Info
+2026-09-08 09:57:10,352 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ea35 for key /Info
+2026-09-08 09:57:10,352 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ea41 for key /Info
+2026-09-08 09:57:10,394 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d0c7 for key /Info
+2026-09-08 09:57:10,394 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d0d3 for key /Info
+2026-09-08 09:57:10,394 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d0df for key /Info
+2026-09-08 09:57:10,437 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e457 for key /Info
+2026-09-08 09:57:10,437 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e463 for key /Info
+2026-09-08 09:57:10,438 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e46f for key /Info
+2026-09-08 09:57:10,475 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4989f for key /Info
+2026-09-08 09:57:10,475 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x498ab for key /Info
+2026-09-08 09:57:10,475 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x498b7 for key /Info
+2026-09-08 09:57:10,513 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b16c for key /Info
+2026-09-08 09:57:10,513 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b178 for key /Info
+2026-09-08 09:57:10,513 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b184 for key /Info
+2026-09-08 09:57:10,551 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c5d3 for key /Info
+2026-09-08 09:57:10,551 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c5df for key /Info
+2026-09-08 09:57:10,551 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c5eb for key /Info
+2026-09-08 09:57:10,597 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fe6b for key /Info
+2026-09-08 09:57:10,599 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fe77 for key /Info
+2026-09-08 09:57:10,599 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fe83 for key /Info
+2026-09-08 09:57:10,641 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49874 for key /Info
+2026-09-08 09:57:10,641 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49880 for key /Info
+2026-09-08 09:57:10,641 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4988c for key /Info
+2026-09-08 09:57:10,680 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f063 for key /Info
+2026-09-08 09:57:10,680 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f06f for key /Info
+2026-09-08 09:57:10,681 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f07b for key /Info
+2026-09-08 09:57:10,759 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd55 for key /Info
+2026-09-08 09:57:10,759 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd61 for key /Info
+2026-09-08 09:57:10,759 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd6d for key /Info
+2026-09-08 09:57:10,799 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f4a4 for key /Info
+2026-09-08 09:57:10,800 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f4b0 for key /Info
+2026-09-08 09:57:10,800 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4f4bc for key /Info
+2026-09-08 09:57:10,839 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a753 for key /Info
+2026-09-08 09:57:10,839 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a75f for key /Info
+2026-09-08 09:57:10,840 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a76b for key /Info
+2026-09-08 09:57:10,911 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b79a for key /Info
+2026-09-08 09:57:10,911 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b7a6 for key /Info
+2026-09-08 09:57:10,912 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b7b2 for key /Info
+2026-09-08 09:57:10,949 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b052 for key /Info
+2026-09-08 09:57:10,949 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b05e for key /Info
+2026-09-08 09:57:10,949 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b06a for key /Info
+2026-09-08 09:57:10,987 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a877 for key /Info
+2026-09-08 09:57:10,987 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a883 for key /Info
+2026-09-08 09:57:10,987 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a88f for key /Info
+2026-09-08 09:57:11,028 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c261 for key /Info
+2026-09-08 09:57:11,029 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c26d for key /Info
+2026-09-08 09:57:11,029 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c279 for key /Info
+2026-09-08 09:57:11,067 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d48e for key /Info
+2026-09-08 09:57:11,067 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d49a for key /Info
+2026-09-08 09:57:11,068 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d4a6 for key /Info
+2026-09-08 09:57:11,105 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ab27 for key /Info
+2026-09-08 09:57:11,112 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ab33 for key /Info
+2026-09-08 09:57:11,112 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ab3f for key /Info
+2026-09-08 09:57:11,165 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51aeb for key /Info
+2026-09-08 09:57:11,165 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51af7 for key /Info
+2026-09-08 09:57:11,165 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51b03 for key /Info
+2026-09-08 09:57:11,209 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53c25 for key /Info
+2026-09-08 09:57:11,210 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53c31 for key /Info
+2026-09-08 09:57:11,210 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53c3d for key /Info
+2026-09-08 09:57:11,282 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51dbe for key /Info
+2026-09-08 09:57:11,283 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51dca for key /Info
+2026-09-08 09:57:11,283 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x51dd6 for key /Info
+2026-09-08 09:57:11,342 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d7b2 for key /Info
+2026-09-08 09:57:11,342 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d7be for key /Info
+2026-09-08 09:57:11,343 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4d7ca for key /Info
+2026-09-08 09:57:11,391 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x54812 for key /Info
+2026-09-08 09:57:11,392 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5481e for key /Info
+2026-09-08 09:57:11,392 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5482a for key /Info
+2026-09-08 09:57:11,443 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5800e for key /Info
+2026-09-08 09:57:11,443 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5801a for key /Info
+2026-09-08 09:57:11,444 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x58026 for key /Info
+2026-09-08 09:57:11,486 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fa68 for key /Info
+2026-09-08 09:57:11,486 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fa74 for key /Info
+2026-09-08 09:57:11,486 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fa80 for key /Info
+2026-09-08 09:57:11,532 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5383e for key /Info
+2026-09-08 09:57:11,534 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5384a for key /Info
+2026-09-08 09:57:11,534 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53856 for key /Info
+2026-09-08 09:57:11,578 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5045b for key /Info
+2026-09-08 09:57:11,578 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x50467 for key /Info
+2026-09-08 09:57:11,578 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x50473 for key /Info
+2026-09-08 09:57:11,624 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x517cc for key /Info
+2026-09-08 09:57:11,625 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x517d8 for key /Info
+2026-09-08 09:57:11,625 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x517e4 for key /Info
+2026-09-08 09:57:11,654 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34b8e for key /Info
+2026-09-08 09:57:11,655 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34b9a for key /Info
+2026-09-08 09:57:11,655 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34ba6 for key /Info
+2026-09-08 09:57:11,696 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b312 for key /Info
+2026-09-08 09:57:11,696 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b31e for key /Info
+2026-09-08 09:57:11,697 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b32a for key /Info
+2026-09-08 09:57:11,735 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48c5b for key /Info
+2026-09-08 09:57:11,736 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48c67 for key /Info
+2026-09-08 09:57:11,737 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48c73 for key /Info
+2026-09-08 09:57:11,787 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x562c4 for key /Info
+2026-09-08 09:57:11,788 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x562d0 for key /Info
+2026-09-08 09:57:11,788 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x562dc for key /Info
+2026-09-08 09:57:11,828 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x50552 for key /Info
+2026-09-08 09:57:11,829 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5055e for key /Info
+2026-09-08 09:57:11,829 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x5056a for key /Info
+2026-09-08 09:57:11,918 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x46816 for key /Info
+2026-09-08 09:57:11,918 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x46822 for key /Info
+2026-09-08 09:57:11,918 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4682e for key /Info
+2026-09-08 09:57:11,959 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e1fb for key /Info
+2026-09-08 09:57:11,960 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e207 for key /Info
+2026-09-08 09:57:11,960 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4e213 for key /Info
+2026-09-08 09:57:12,003 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ef79 for key /Info
+2026-09-08 09:57:12,005 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ef85 for key /Info
+2026-09-08 09:57:12,005 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ef91 for key /Info
+2026-09-08 09:57:12,044 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c50b for key /Info
+2026-09-08 09:57:12,045 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c517 for key /Info
+2026-09-08 09:57:12,046 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4c523 for key /Info
+2026-09-08 09:57:12,090 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b93e for key /Info
+2026-09-08 09:57:12,091 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b94a for key /Info
+2026-09-08 09:57:12,091 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4b956 for key /Info
+2026-09-08 09:57:12,131 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x47cca for key /Info
+2026-09-08 09:57:12,131 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x47cd6 for key /Info
+2026-09-08 09:57:12,131 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x47ce2 for key /Info
+2026-09-08 09:57:12,174 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4cb89 for key /Info
+2026-09-08 09:57:12,174 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4cb95 for key /Info
+2026-09-08 09:57:12,175 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4cba1 for key /Info
+2026-09-08 09:57:12,219 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49679 for key /Info
+2026-09-08 09:57:12,220 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49685 for key /Info
+2026-09-08 09:57:12,220 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49691 for key /Info
+2026-09-08 09:57:12,271 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fd28 for key /Info
+2026-09-08 09:57:12,272 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fd34 for key /Info
+2026-09-08 09:57:12,272 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4fd40 for key /Info
+2026-09-08 09:57:12,320 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53249 for key /Info
+2026-09-08 09:57:12,321 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53255 for key /Info
+2026-09-08 09:57:12,321 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x53261 for key /Info
+2026-09-08 09:57:12,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd39 for key /Info
+2026-09-08 09:57:12,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd45 for key /Info
+2026-09-08 09:57:12,367 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dd51 for key /Info
+2026-09-08 09:57:12,406 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49c35 for key /Info
+2026-09-08 09:57:12,407 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49c41 for key /Info
+2026-09-08 09:57:12,407 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49c4d for key /Info
+2026-09-08 09:57:12,448 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a697 for key /Info
+2026-09-08 09:57:12,449 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a6a3 for key /Info
+2026-09-08 09:57:12,449 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4a6af for key /Info
+2026-09-08 09:57:12,490 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ac09 for key /Info
+2026-09-08 09:57:12,491 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ac15 for key /Info
+2026-09-08 09:57:12,491 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ac21 for key /Info
+2026-09-08 09:57:12,528 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49655 for key /Info
+2026-09-08 09:57:12,528 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x49661 for key /Info
+2026-09-08 09:57:12,528 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4966d for key /Info
+2026-09-08 09:57:12,571 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4df5b for key /Info
+2026-09-08 09:57:12,572 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4df67 for key /Info
+2026-09-08 09:57:12,572 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4df73 for key /Info
+2026-09-08 09:57:12,612 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4dae9 for key /Info
+2026-09-08 09:57:12,612 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4daf5 for key /Info
+2026-09-08 09:57:12,612 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4db01 for key /Info
+2026-09-08 09:57:12,651 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ba97 for key /Info
+2026-09-08 09:57:12,652 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4baa3 for key /Info
+2026-09-08 09:57:12,653 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4baaf for key /Info
+2026-09-08 09:57:12,685 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3b9f2 for key /Info
+2026-09-08 09:57:12,685 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3b9fe for key /Info
+2026-09-08 09:57:12,685 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3ba0a for key /Info
+2026-09-08 09:57:12,724 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4aafb for key /Info
+2026-09-08 09:57:12,725 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ab07 for key /Info
+2026-09-08 09:57:12,725 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ab13 for key /Info
+2026-09-08 09:57:12,769 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48e70 for key /Info
+2026-09-08 09:57:12,770 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48e7c for key /Info
+2026-09-08 09:57:12,770 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x48e88 for key /Info
+2026-09-08 09:57:24,041 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11e17a for key /Info
+2026-09-08 09:57:24,041 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11e187 for key /Info
+2026-09-08 09:57:24,041 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11e194 for key /Info
+2026-09-08 10:00:01,193 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:00:31,784 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1abb9e for key /Info
+2026-09-08 10:00:31,786 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1abbab for key /Info
+2026-09-08 10:00:31,787 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1abbb8 for key /Info
+2026-09-08 10:00:31,997 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x184095 for key /Info
+2026-09-08 10:00:31,997 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1840a2 for key /Info
+2026-09-08 10:00:31,998 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1840af for key /Info
+2026-09-08 10:02:38,142 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64ae0 for key /Info
+2026-09-08 10:02:38,142 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64aec for key /Info
+2026-09-08 10:02:38,142 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x64af8 for key /Info
+2026-09-08 10:02:40,059 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:03:49,479 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 10:03:49,480 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:04:46,331 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x11714 for key /Im5
+2026-09-08 10:06:34,190 | WARNING | pypdf._reader | Ignoring wrong pointing object 21 0 (offset 0)
+2026-09-08 10:06:34,190 | WARNING | pypdf._reader | Ignoring wrong pointing object 64 0 (offset 0)
+2026-09-08 10:06:34,191 | WARNING | pypdf._reader | Ignoring wrong pointing object 66 0 (offset 0)
+2026-09-08 10:09:55,511 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 10:09:55,511 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:09:55,522 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 10:09:55,522 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:09:55,532 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 10:09:55,532 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:13:36,905 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: C:\C\Projetos Python\Buscar PDF\Arquivos Teste
+2026-09-08 10:14:18,305 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xdd3f3 for key /Info
+2026-09-08 10:14:18,306 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xdd400 for key /Info
+2026-09-08 10:14:18,306 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xdd40d for key /Info
+2026-09-08 10:16:54,153 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8fead for key /Info
+2026-09-08 10:16:54,153 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8feba for key /Info
+2026-09-08 10:16:54,153 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8fec7 for key /Info
+2026-09-08 10:19:30,585 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x21fc43 for key /Info
+2026-09-08 10:19:30,585 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x21fc50 for key /Info
+2026-09-08 10:19:30,586 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x21fc5d for key /Info
+2026-09-08 10:27:30,666 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x69e41 for key /.notdef
+2026-09-08 10:27:30,716 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a6c6 for key /.notdef
+2026-09-08 10:27:30,717 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a8eb for key /.notdef
+2026-09-08 10:31:51,924 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:52,749 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:56,033 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:56,347 | WARNING | waitress.queue | Task queue depth is 1
+2026-09-08 10:31:56,961 | WARNING | waitress.queue | Task queue depth is 2
+2026-09-08 10:31:57,279 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:57,494 | WARNING | waitress.queue | Task queue depth is 2
+2026-09-08 10:31:58,374 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:58,456 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:58,738 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:58,806 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:31:59,733 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:00,912 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:01,927 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:03,918 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:04,547 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:04,701 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:07,394 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:08,949 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:32:16,346 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-08 10:33:03,770 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=AGROPECUARIA VALDAMERI | total=51
+2026-09-08 10:34:42,115 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x69e41 for key /.notdef
+2026-09-08 10:34:42,136 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a6c6 for key /.notdef
+2026-09-08 10:34:42,136 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a8eb for key /.notdef
+2026-09-08 10:42:51,572 | WARNING | pypdf._reader | invalid pdf header: b'0\x83\x04\xf9\xd8'
+2026-09-08 10:42:51,574 | WARNING | pypdf._reader | incorrect startxref pointer(1)
+2026-09-08 10:42:51,574 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:44:50,272 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9bf8 for key /Info
+2026-09-08 10:44:50,272 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9c05 for key /Info
+2026-09-08 10:44:50,272 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9c12 for key /Info
+2026-09-08 10:44:56,117 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3ee9c for key /Info
+2026-09-08 10:44:56,118 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3eea8 for key /Info
+2026-09-08 10:44:56,118 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3eeb4 for key /Info
+2026-09-08 10:44:56,178 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x739b3 for key /Info
+2026-09-08 10:44:56,178 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x739bf for key /Info
+2026-09-08 10:44:56,178 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x739cb for key /Info
+2026-09-08 10:44:57,130 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9bf8 for key /Info
+2026-09-08 10:44:57,130 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9c05 for key /Info
+2026-09-08 10:44:57,130 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f9c12 for key /Info
+2026-09-08 10:45:09,552 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:45:16,602 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6b47b for key /Info
+2026-09-08 10:45:16,602 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6b487 for key /Info
+2026-09-08 10:45:16,603 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6b493 for key /Info
+2026-09-08 10:45:17,118 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x86418 for key /Info
+2026-09-08 10:45:17,118 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x86424 for key /Info
+2026-09-08 10:45:17,119 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x86430 for key /Info
+2026-09-08 10:45:38,955 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x209487 for key /Info
+2026-09-08 10:45:38,955 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x209494 for key /Info
+2026-09-08 10:45:38,955 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2094a1 for key /Info
+2026-09-08 10:45:42,555 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x62561 for key /Info
+2026-09-08 10:45:42,555 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6256d for key /Info
+2026-09-08 10:45:42,555 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x62579 for key /Info
+2026-09-08 10:45:43,274 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3f507 for key /Info
+2026-09-08 10:45:43,274 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3f513 for key /Info
+2026-09-08 10:45:43,274 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3f51f for key /Info
+2026-09-08 10:45:47,849 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x680cc for key /Info
+2026-09-08 10:45:47,849 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x680d8 for key /Info
+2026-09-08 10:45:47,849 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x680e4 for key /Info
+2026-09-08 10:50:00,450 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 10:50:00,451 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:50:04,685 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:50:26,731 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd5d for key /ppImage10
+2026-09-08 10:50:26,731 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd70 for key /ppImage20
+2026-09-08 10:50:26,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd83 for key /ppImage30
+2026-09-08 10:50:26,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1862 for key /ppImage10
+2026-09-08 10:50:26,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1875 for key /ppImage20
+2026-09-08 10:50:26,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1888 for key /ppImage30
+2026-09-08 10:50:26,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24e7 for key /ppImage10
+2026-09-08 10:50:26,733 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24fa for key /ppImage20
+2026-09-08 10:50:26,733 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x250d for key /ppImage30
+2026-09-08 10:50:26,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd5d for key /ppImage10
+2026-09-08 10:50:26,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd70 for key /ppImage20
+2026-09-08 10:50:26,811 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd83 for key /ppImage30
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1863 for key /ppImage10
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1876 for key /ppImage20
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1889 for key /ppImage30
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24ea for key /ppImage10
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24fd for key /ppImage20
+2026-09-08 10:50:26,812 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2510 for key /ppImage30
+2026-09-08 10:50:26,896 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xbf2 for key /ppImage10
+2026-09-08 10:50:26,896 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc05 for key /ppImage20
+2026-09-08 10:50:26,896 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc18 for key /ppImage30
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x16f6 for key /ppImage10
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1709 for key /ppImage20
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x171c for key /ppImage30
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x220e for key /ppImage10
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2221 for key /ppImage20
+2026-09-08 10:50:26,897 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2234 for key /ppImage30
+2026-09-08 10:50:26,943 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xbf2 for key /ppImage10
+2026-09-08 10:50:26,943 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc05 for key /ppImage20
+2026-09-08 10:50:26,944 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc18 for key /ppImage30
+2026-09-08 10:50:26,944 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x16f7 for key /ppImage10
+2026-09-08 10:50:26,944 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x170a for key /ppImage20
+2026-09-08 10:50:26,944 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x171d for key /ppImage30
+2026-09-08 10:50:26,945 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x220f for key /ppImage10
+2026-09-08 10:50:26,945 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2222 for key /ppImage20
+2026-09-08 10:50:26,945 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2235 for key /ppImage30
+2026-09-08 10:50:27,012 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd4b for key /ppImage10
+2026-09-08 10:50:27,012 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd5e for key /ppImage20
+2026-09-08 10:50:27,012 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd71 for key /ppImage30
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1851 for key /ppImage10
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1864 for key /ppImage20
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1877 for key /ppImage30
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24bf for key /ppImage10
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24d2 for key /ppImage20
+2026-09-08 10:50:27,013 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x24e5 for key /ppImage30
+2026-09-08 10:50:27,124 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd4f for key /ppImage10
+2026-09-08 10:50:27,125 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd62 for key /ppImage20
+2026-09-08 10:50:27,125 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd75 for key /ppImage30
+2026-09-08 10:50:27,125 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1857 for key /ppImage10
+2026-09-08 10:50:27,125 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x186a for key /ppImage20
+2026-09-08 10:50:27,125 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x187d for key /ppImage30
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x236b for key /ppImage10
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x237e for key /ppImage20
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2391 for key /ppImage30
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2ff0 for key /ppImage10
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3003 for key /ppImage20
+2026-09-08 10:50:27,126 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3016 for key /ppImage30
+2026-09-08 10:50:27,214 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcf4 for key /ppImage10
+2026-09-08 10:50:27,214 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd07 for key /ppImage20
+2026-09-08 10:50:27,214 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd1a for key /ppImage30
+2026-09-08 10:50:27,214 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x17fc for key /ppImage10
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x180f for key /ppImage20
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1822 for key /ppImage30
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2309 for key /ppImage10
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x231c for key /ppImage20
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x232f for key /ppImage30
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f26 for key /ppImage10
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f39 for key /ppImage20
+2026-09-08 10:50:27,215 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f4c for key /ppImage30
+2026-09-08 10:50:27,299 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcec for key /ppImage10
+2026-09-08 10:50:27,299 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcff for key /ppImage20
+2026-09-08 10:50:27,299 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd12 for key /ppImage30
+2026-09-08 10:50:27,299 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x17f6 for key /ppImage10
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1809 for key /ppImage20
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x181c for key /ppImage30
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2305 for key /ppImage10
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2318 for key /ppImage20
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x232b for key /ppImage30
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f2d for key /ppImage10
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f40 for key /ppImage20
+2026-09-08 10:50:27,300 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2f53 for key /ppImage30
+2026-09-08 10:50:27,365 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcf6 for key /ppImage10
+2026-09-08 10:50:27,365 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd09 for key /ppImage20
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd1c for key /ppImage30
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1805 for key /ppImage10
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1818 for key /ppImage20
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x182b for key /ppImage30
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x242c for key /ppImage10
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x243f for key /ppImage20
+2026-09-08 10:50:27,366 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2452 for key /ppImage30
+2026-09-08 10:50:27,425 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xced for key /ppImage10
+2026-09-08 10:50:27,425 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd00 for key /ppImage20
+2026-09-08 10:50:27,425 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd13 for key /ppImage30
+2026-09-08 10:50:27,425 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x17fb for key /ppImage10
+2026-09-08 10:50:27,426 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x180e for key /ppImage20
+2026-09-08 10:50:27,426 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1821 for key /ppImage30
+2026-09-08 10:50:27,426 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x241a for key /ppImage10
+2026-09-08 10:50:27,426 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x242d for key /ppImage20
+2026-09-08 10:50:27,426 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2440 for key /ppImage30
+2026-09-08 10:50:27,545 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcaa for key /ppImage10
+2026-09-08 10:50:27,546 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcbd for key /ppImage20
+2026-09-08 10:50:27,546 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcd0 for key /ppImage30
+2026-09-08 10:50:27,546 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1772 for key /ppImage10
+2026-09-08 10:50:27,547 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1785 for key /ppImage20
+2026-09-08 10:50:27,547 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1798 for key /ppImage30
+2026-09-08 10:50:27,547 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2352 for key /ppImage10
+2026-09-08 10:50:27,548 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2365 for key /ppImage20
+2026-09-08 10:50:27,548 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2378 for key /ppImage30
+2026-09-08 10:50:27,616 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcf4 for key /ppImage10
+2026-09-08 10:50:27,617 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd07 for key /ppImage20
+2026-09-08 10:50:27,617 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd1a for key /ppImage30
+2026-09-08 10:50:27,617 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1805 for key /ppImage10
+2026-09-08 10:50:27,618 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1818 for key /ppImage20
+2026-09-08 10:50:27,619 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x182b for key /ppImage30
+2026-09-08 10:50:27,620 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2428 for key /ppImage10
+2026-09-08 10:50:27,620 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x243b for key /ppImage20
+2026-09-08 10:50:27,620 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x244e for key /ppImage30
+2026-09-08 10:50:27,680 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcfe for key /ppImage10
+2026-09-08 10:50:27,681 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd11 for key /ppImage20
+2026-09-08 10:50:27,681 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd24 for key /ppImage30
+2026-09-08 10:50:27,682 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x180c for key /ppImage10
+2026-09-08 10:50:27,682 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x181f for key /ppImage20
+2026-09-08 10:50:27,682 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1832 for key /ppImage30
+2026-09-08 10:50:27,682 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2431 for key /ppImage10
+2026-09-08 10:50:27,683 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2444 for key /ppImage20
+2026-09-08 10:50:27,683 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2457 for key /ppImage30
+2026-09-08 10:50:27,731 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xbf3 for key /ppImage10
+2026-09-08 10:50:27,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc06 for key /ppImage20
+2026-09-08 10:50:27,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xc19 for key /ppImage30
+2026-09-08 10:50:27,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1705 for key /ppImage10
+2026-09-08 10:50:27,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1718 for key /ppImage20
+2026-09-08 10:50:27,732 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x172b for key /ppImage30
+2026-09-08 10:50:27,733 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2225 for key /ppImage10
+2026-09-08 10:50:27,733 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2238 for key /ppImage20
+2026-09-08 10:50:27,733 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x224b for key /ppImage30
+2026-09-08 10:50:27,774 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcec for key /ppImage10
+2026-09-08 10:50:27,775 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcff for key /ppImage20
+2026-09-08 10:50:27,775 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd12 for key /ppImage30
+2026-09-08 10:50:27,776 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x17fa for key /ppImage10
+2026-09-08 10:50:27,776 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x180d for key /ppImage20
+2026-09-08 10:50:27,776 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1820 for key /ppImage30
+2026-09-08 10:50:27,776 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x241f for key /ppImage10
+2026-09-08 10:50:27,777 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2432 for key /ppImage20
+2026-09-08 10:50:27,777 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2445 for key /ppImage30
+2026-09-08 10:50:27,830 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xce9 for key /ppImage10
+2026-09-08 10:50:27,831 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xcfc for key /ppImage20
+2026-09-08 10:50:27,831 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd0f for key /ppImage30
+2026-09-08 10:50:27,831 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x190d for key /ppImage10
+2026-09-08 10:50:27,832 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1920 for key /ppImage20
+2026-09-08 10:50:27,832 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1933 for key /ppImage30
+2026-09-08 10:50:37,520 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3c4a8 for key /.notdef
+2026-09-08 10:50:37,526 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3cb32 for key /.notdef
+2026-09-08 10:50:37,527 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3cc08 for key /.notdef
+2026-09-08 10:50:37,527 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x3cce6 for key /.notdef
+2026-09-08 10:51:03,048 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x543f2 for key /PageMode
+2026-09-08 10:51:04,316 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x47984 for key /PageMode
+2026-09-08 10:52:05,994 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x251fab for key /Info
+2026-09-08 10:52:05,994 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x251fb8 for key /Info
+2026-09-08 10:52:05,994 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x251fc5 for key /Info
+2026-09-08 10:53:19,287 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-08 10:53:19,287 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:53:19,297 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-08 10:53:19,298 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:53:21,355 | WARNING | pypdf._reader | invalid pdf header: b'\xff\xd8\xff\xe0\x00'
+2026-09-08 10:53:21,391 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 10:54:29,829 | WARNING | pypdf._reader | /Prev=0 in the trailer - assuming there is no previous xref table
+2026-09-08 10:54:39,091 | WARNING | pypdf._reader | /Prev=0 in the trailer - assuming there is no previous xref table
+2026-09-08 10:54:45,876 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8f0b5 for key /Info
+2026-09-08 10:54:45,877 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8f0c1 for key /Info
+2026-09-08 10:54:45,878 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x8f0cd for key /Info
+2026-09-08 10:54:45,948 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6309f for key /Info
+2026-09-08 10:54:45,949 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x630ab for key /Info
+2026-09-08 10:54:45,949 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x630b7 for key /Info
+2026-09-08 10:54:50,504 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd6dbc for key /Info
+2026-09-08 10:54:50,505 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd6dc9 for key /Info
+2026-09-08 10:54:50,505 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xd6dd6 for key /Info
+2026-09-08 10:55:10,118 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x9fd57 for key /Info
+2026-09-08 10:55:10,119 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x9fd64 for key /Info
+2026-09-08 10:55:10,119 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x9fd71 for key /Info
+2026-09-08 10:55:14,032 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x7a619 for key /Info
+2026-09-08 10:55:14,033 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x7a625 for key /Info
+2026-09-08 10:55:14,033 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x7a631 for key /Info
+2026-09-08 10:55:14,757 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6fb1a for key /Info
+2026-09-08 10:55:14,758 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6fb26 for key /Info
+2026-09-08 10:55:14,758 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6fb32 for key /Info
+2026-09-08 10:55:14,968 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xffe7b for key /Info
+2026-09-08 10:55:14,969 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xffe88 for key /Info
+2026-09-08 10:55:14,969 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0xffe95 for key /Info
+2026-09-08 10:55:25,790 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:56:20,304 | WARNING | pypdf._reader | invalid pdf header: b'    /'
+2026-09-08 10:56:20,304 | WARNING | pypdf._reader | incorrect startxref pointer(1)
+2026-09-08 10:56:20,305 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:56:24,251 | WARNING | pypdf._reader | invalid pdf header: b'    /'
+2026-09-08 10:56:24,251 | WARNING | pypdf._reader | incorrect startxref pointer(1)
+2026-09-08 10:56:24,252 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:56:30,511 | WARNING | pypdf._reader | invalid pdf header: b'    /'
+2026-09-08 10:56:30,511 | WARNING | pypdf._reader | incorrect startxref pointer(1)
+2026-09-08 10:56:30,511 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:56:38,930 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34d9e for key /Info
+2026-09-08 10:56:38,930 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34daa for key /Info
+2026-09-08 10:56:38,931 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x34db6 for key /Info
+2026-09-08 10:56:43,404 | WARNING | pypdf._reader | invalid pdf header: b'    /'
+2026-09-08 10:56:43,404 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:56:43,405 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:56:49,197 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:56:54,356 | WARNING | pypdf._reader | invalid pdf header: b'    /'
+2026-09-08 10:56:54,356 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:56:54,356 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 10:57:03,157 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:57:26,077 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 10:57:56,325 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1d0dea for key /Info
+2026-09-08 10:57:56,325 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1d0df7 for key /Info
+2026-09-08 10:57:56,325 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x1d0e04 for key /Info
+2026-09-08 10:59:51,538 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x4ee22a for key /PageMode
+2026-09-08 11:00:55,218 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-08 11:01:46,108 | ERROR | pypdf._cmap | Advanced encoding /90msp-RKSJ-H not implemented yet
+2026-09-08 11:01:46,128 | ERROR | pypdf._cmap | Advanced encoding /90msp-RKSJ-H not implemented yet
+2026-09-08 11:01:46,149 | ERROR | pypdf._cmap | Advanced encoding /90msp-RKSJ-H not implemented yet
+2026-09-08 11:01:46,172 | ERROR | pypdf._cmap | Advanced encoding /90msp-RKSJ-H not implemented yet
+2026-09-08 11:03:16,699 | WARNING | pypdf._reader | invalid pdf header: b'<!DOC'
+2026-09-08 11:03:16,699 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 13:23:21,683 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x69e41 for key /.notdef
+2026-09-08 13:23:21,743 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a6c6 for key /.notdef
+2026-09-08 13:23:21,745 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x6a8eb for key /.notdef
+2026-09-08 13:31:35,638 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-08 13:31:35,638 | WARNING | pypdf._reader | EOF marker not found
+2026-09-08 13:32:07,273 | WARNING | pypdf._reader | parsing for Object Streams
+2026-09-08 13:32:39,744 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x36fe9 for key /Info
+2026-09-08 13:32:39,744 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x36ff5 for key /Info
+2026-09-08 13:32:39,744 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x37001 for key /Info
+2026-09-08 13:32:40,031 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e0e for key /Info
+2026-09-08 13:32:40,038 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e1a for key /Info
+2026-09-08 13:32:40,038 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x71e26 for key /Info
+2026-09-08 13:32:40,884 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa05b for key /Info
+2026-09-08 13:32:40,885 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa068 for key /Info
+2026-09-08 13:32:40,886 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x2aa075 for key /Info
+2026-09-08 13:32:41,208 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e2f0 for key /Info
+2026-09-08 13:32:41,209 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e2fd for key /Info
+2026-09-08 13:32:41,209 | WARNING | pypdf.generic._data_structures | Multiple definitions in dictionary at byte 0x19e30a for key /Info
+2026-09-08 13:32:52,775 | WARNING | pypdf._reader | incorrect startxref pointer(3)
+2026-09-09 16:28:05,373 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:05,376 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:08,328 | WARNING | pypdf._reader | invalid pdf header: b'\x0bsuel'
+2026-09-09 16:28:08,329 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:12,563 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:12,563 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:17,418 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:17,418 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:17,842 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:17,842 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:35,625 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:35,625 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:41,289 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:41,289 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:41,301 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:41,301 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:28:41,312 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:28:41,312 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:02,791 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:02,791 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:08,294 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:12,337 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:19,466 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:19,466 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:23,647 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:23,648 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:36,772 | WARNING | pypdf._reader | invalid pdf header: b'\xff\xd8\xff\xe0\x00'
+2026-09-09 16:29:36,786 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:41,417 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:41,418 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:42,248 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:42,249 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:44,290 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:44,291 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:29:58,191 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-09 16:29:58,192 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:30:02,066 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-09 16:30:02,066 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:30:02,074 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-09 16:30:02,074 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:30:02,172 | WARNING | pypdf._reader | invalid pdf header: b'\xff\xd8\xff\xe0\x00'
+2026-09-09 16:30:02,197 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 16:30:12,441 | WARNING | pypdf._reader | invalid pdf header: b'<!DOC'
+2026-09-09 16:30:12,442 | WARNING | pypdf._reader | EOF marker not found
+2026-09-09 17:06:19,542 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-09 17:06:20,814 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-09 17:06:22,334 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-09 17:06:23,750 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-09 17:06:32,355 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=AGROPECUARIA FIUT E FICAGNA | total=36
+2026-09-10 15:35:35,830 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:19:38,765 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:19:41,561 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:19:42,492 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:19:42,762 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:19:43,026 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:20:35,349 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:23:13,501 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:23:15,649 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:23:16,287 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:23:16,576 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:26:16,486 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-10 16:26:18,579 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:00,692 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-10 16:28:02,652 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:14,449 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:37,530 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:38,283 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:38,469 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:38,831 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:39,033 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:39,369 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:39,748 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:40,063 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:40,241 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:40,432 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:28:40,653 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:29:00,372 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:29:02,223 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:29:03,017 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:29:03,218 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:30:53,352 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-10 16:30:55,912 | WARNING | apps.monitora_sieg.app | Monitor SIEG: fonte cadastros: Não foi possível ler os cadastros SIEG: Nenhuma planilha Cadastros-dd-mm-aaaa.xlsx encontrada em A:\TI\Projetos_Python\Monitora_SIEG\Arquivos.
+2026-09-10 16:32:32,566 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-10 16:32:34,843 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-10-09-2026_2026-09-10_15-34-30.xlsx | modificado=2026-09-10T15:34:25.949238 | candidatos=3
+2026-09-10 16:32:35,224 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-10-09-26_2026-09-10_15-34-43.xlsx | modificado=2026-09-10T15:34:38.807873 | candidatos=3
+2026-09-10 16:38:04,876 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-10-09-2026_2026-09-10_15-34-30.xlsx | modificado=2026-09-10T15:34:25.949238 | candidatos=3
+2026-09-10 16:38:05,254 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-10-09-26_2026-09-10_15-34-43.xlsx | modificado=2026-09-10T15:34:38.807873 | candidatos=3
+2026-09-11 09:25:04,095 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 09:26:32,565 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-11-09-2026_2026-09-11_08-41-21.xlsx | modificado=2026-09-11T08:41:15.804619 | candidatos=5
+2026-09-11 09:26:33,004 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-11-09-26_2026-09-11_08-41-34.xlsx | modificado=2026-09-11T08:41:30.145569 | candidatos=5
+2026-09-11 10:11:08,989 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 10:21:50,438 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 11:15:10,616 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:08:19,172 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:15:08,913 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:19:09,183 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:21:19,344 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:26:47,175 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 13:52:18,738 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 15:45:34,949 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 15:45:35,088 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-11 16:00:53,398 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 16:00:53,519 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-11 16:20:11,614 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:22:46,040 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:22:59,467 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-11 16:48:58,462 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-11-09-2026_2026-09-11_08-41-21.xlsx | modificado=2026-09-11T08:41:15.804619 | candidatos=5
+2026-09-11 16:48:58,895 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-11-09-26_2026-09-11_08-41-34.xlsx | modificado=2026-09-11T08:41:30.145569 | candidatos=5
+2026-09-11 16:59:54,741 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 17:00:16,121 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 17:00:16,226 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-11 17:01:00,106 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-11 17:01:00,210 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 07:11:41,510 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-14 07:14:56,978 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-14 07:14:57,524 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 07:45:58,178 | ERROR | portal.servidor | Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\acesso.py", line 67, in login
+    sid,error=users.authenticate(request.form.get('username',''),request.form.get('password',''),request.remote_addr or '')
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\usuarios.py", line 119, in authenticate
+    db.execute('DELETE FROM failures WHERE occurred<?',(now-900,))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-09-14 07:46:03,667 | ERROR | portal.servidor | Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\acesso.py", line 67, in login
+    sid,error=users.authenticate(request.form.get('username',''),request.form.get('password',''),request.remote_addr or '')
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\usuarios.py", line 119, in authenticate
+    db.execute('DELETE FROM failures WHERE occurred<?',(now-900,))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-09-14 07:46:25,318 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-14 07:46:25,708 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 08:06:22,909 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-14 08:06:23,025 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 08:07:52,750 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-14 08:07:52,883 | INFO | waitress | Serving on http://127.0.0.1:8081

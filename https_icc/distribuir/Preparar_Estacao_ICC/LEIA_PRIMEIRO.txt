@@ -1,0 +1,17 @@
+﻿PREPARAR ESTACAO ICC - https://10.10.10.154
+1. Extraia este ZIP inteiro em uma pasta.
+2. Execute INSTALAR_NESTE_COMPUTADOR.bat no usuario que utilizara o portal.
+3. Se o Windows solicitar confirmacao de confianca, confira a procedencia com a TI.
+4. Entre no portal com seu login e use o botao INSTALAR do certificado desejado.
+
+O BAT instala a confianca HTTPS no usuario atual e configura o Auxiliar ICC.
+Nao exige Python nem execucao como outro administrador. Repita para cada usuario do Windows.
+Ele confere o SHA256 do certificado antes de importar:
+1E40BD93A7380238C328F494DD1ED650E392481ACAEA683E5650B9D6B4DE4FC0
+
+A TI deve conferir esse valor com o exibido no servidor e entregar este pacote por um meio controlado.
+A raiz importada e da autoridade HTTPS interna, nao e um certificado A1 de cliente.
+Nao distribua chaves privadas nem a pasta dados/caddy_https.
+Se os scripts forem bloqueados, a TI deve conferir a procedencia e a politica de assinatura.
+Se houver a opcao Desbloquear nas propriedades do ZIP, a TI pode desbloquear antes de extrair.
+Nao altere as politicas da empresa para executar este pacote.

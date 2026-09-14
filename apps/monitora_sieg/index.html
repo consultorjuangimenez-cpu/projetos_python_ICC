@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Confronto de certificados SIEG e ICC e consulta das certidões dos clientes ativos.">
+  <title>Monitor SIEG | ICC Contabilidade</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+</head>
+<body data-api-dados="{{ url_for('api_dados') }}" data-api-atualizar="{{ url_for('api_atualizar') }}">
+  <header class="topbar"><div class="brand"><span class="brand-mark">ICC</span><div><strong>Monitor SIEG</strong><span>Certificados e certidões</span></div></div><div class="header-actions"><span id="updated">Aguardando leitura</span><button id="refresh" class="primary">Atualizar confronto</button></div></header>
+  <main>
+    <div class="heading"><div><p class="eyebrow">CONTROLE DE CERTIFICADOS</p><h1>O que precisa de atenção?</h1><p>Confronto dos clientes ativos no SIEG com o relatório de certificados ICC.</p></div><span class="scope" id="active-count">Lendo arquivos...</span></div>
+    <div id="error" class="notice danger" role="alert" hidden></div>
+    <div id="loading" class="notice" role="status">Lendo as planilhas e preparando o confronto...</div>
+    <section class="metrics" aria-label="Resumo e filtros rápidos">
+      <button class="metric featured" data-quick="sieg"><span>Atualizar no SIEG</span><strong id="count-sieg">...</strong><small>Certificado disponível na ICC</small></button>
+      <button class="metric" data-quick="pasta"><span>Atualizar na pasta</span><strong id="count-pasta">...</strong><small>Vencido ou desconhecido</small></button>
+      <button class="metric" data-quick="sem_pasta"><span>Sem certificado na pasta</span><strong id="count-sem_pasta">...</strong><small>Sem correspondência no relatório</small></button>
+      <button class="metric" data-quick="breve"><span>Vencem em breve na pasta</span><strong id="count-breve">...</strong><small>Conforme status da coluna K</small></button>
+      <button class="metric" data-quick="estado"><span>Cadastro sem estado</span><strong id="count-estado">...</strong><small>Preencher no SIEG</small></button>
+    </section>
+    <section class="workspace">
+      <nav class="tabs" role="tablist" aria-label="Consultas"><button id="tab-certificados" role="tab" aria-selected="true" aria-controls="panel-certificados">Certificados <span id="total-certificados">0</span></button><button id="tab-certidoes" role="tab" aria-selected="false" aria-controls="panel-certidoes" tabindex="-1">Certidões <span id="total-certidoes">0</span></button></nav>
+      <section id="panel-certificados" role="tabpanel" aria-labelledby="tab-certificados">
+        <div class="toolbar"><div><h2>Confronto de certificados</h2><p>Selecione um cliente para conferir o cadastro e todos os certificados encontrados.</p></div><button id="clear-certificados" class="secondary">Limpar filtros</button></div>
+        <form id="filters-certificados" class="filters" autocomplete="off">
+          <label class="wide">Cliente, apelido ou CNPJ/CPF<input id="c-busca" type="search" placeholder="Digite um nome ou documento"></label>
+          <label>Ação<select id="c-grupo"><option value="">Todas as ações</option><option value="sieg">Atualizar no SIEG</option><option value="pasta">Atualizar na pasta</option><option value="sem_pasta">Sem certificado na pasta</option><option value="acompanhar">Acompanhar vencimento SIEG</option><option value="ok">Sem pendência de certificado</option><option value="revisar">Revisar informações</option></select></label>
+          <label>Status no SIEG<select id="c-sieg"><option value="">Todos</option></select></label>
+          <label>Status na ICC<select id="c-icc"><option value="">Todos</option></select></label>
+          <label>Vencimento ICC<select id="c-breve"><option value="">Todos</option><option value="sim">Vence em breve</option><option value="nao">Demais certificados</option></select></label>
+          <label>Estado (UF)<select id="c-estado"><option value="">Todos</option><option value="__vazio">Não preenchido</option></select></label>
+          <label>Ativo Pendências / IRIS<select id="c-iris"><option value="">Todos</option><option value="SIM">Sim</option><option value="NAO">Não</option><option value="__vazio">Não informado</option></select></label>
+        </form>
+        <div id="certificados-unavailable" class="notice danger" hidden>Confronto indisponível. Corrija a leitura dos cadastros ou do relatório ICC e atualize.</div>
+        <div class="table-wrap"><table id="table-certificados"><caption class="sr-only">Certificados dos clientes ativos no SIEG</caption><thead><tr><th><button data-sort-c="nome">Cliente / CNPJ ou CPF</button></th><th><button data-sort-c="acao">Ação recomendada</button></th><th><button data-sort-c="status_sieg">No SIEG</button></th><th><button data-sort-c="status_icc">Na pasta ICC</button></th><th><button data-sort-c="vencimento_icc">Vencimento real ICC</button></th><th>Alertas / Estado</th><th>Consulta</th></tr></thead><tbody id="rows-certificados"></tbody></table></div>
+        <div class="pagination"><span id="result-certificados" role="status"></span><div><button id="prev-certificados" class="secondary" aria-label="Página anterior de certificados">Anterior</button><span id="page-certificados"></span><button id="next-certificados" class="secondary" aria-label="Próxima página de certificados">Próxima</button></div></div>
+      </section>
+      <section id="panel-certidoes" role="tabpanel" aria-labelledby="tab-certidoes" hidden>
+        <div class="toolbar"><div><h2>Certidões dos clientes ativos</h2><p>Situações conforme a exportação SIEG. Filtros combináveis em todas as colunas.</p></div><button id="clear-certidoes" class="secondary">Limpar filtros</button></div>
+        <form id="filters-certidoes" class="filters certidoes-filters" autocomplete="off">
+          <label>Empresa<input id="d-nome" type="search" placeholder="Nome da empresa"></label>
+          <label>CNPJ/CPF<input id="d-documento" type="search" placeholder="Com ou sem pontuação"></label>
+          <label>Tipo de certidão<select id="d-tipo"><option value="">Todos os tipos</option></select></label>
+          <label>Situação<select id="d-situacao"><option value="">Todas as situações</option></select></label>
+          <label>Vencimento a partir de<input id="d-inicio" type="date"></label>
+          <label>Vencimento até<input id="d-fim" type="date"></label>
+          <label>Data de vencimento<select id="d-data"><option value="">Todas</option><option value="sem">Sem data válida</option><option value="com">Com data válida</option><option value="vencidas">Vencidas pela data</option></select></label>
+        </form>
+        <div id="date-error" class="notice danger" role="alert" hidden>A data inicial deve ser anterior ou igual à data final.</div>
+        <div id="certidoes-unavailable" class="notice danger" hidden>Consulta de certidões indisponível. Confira os arquivos e atualize.</div>
+        <div class="table-wrap"><table id="table-certidoes"><caption class="sr-only">Certidões SIEG vinculadas aos cadastros ativos</caption><thead><tr><th><button data-sort-d="nome">Empresa</button></th><th><button data-sort-d="documento">CNPJ/CPF</button></th><th><button data-sort-d="tipo">Tipo de certidão</button></th><th><button data-sort-d="situacao">Situação no SIEG</button></th><th><button data-sort-d="vencimento">Vencimento</button></th></tr></thead><tbody id="rows-certidoes"></tbody></table></div>
+        <div class="pagination"><span id="result-certidoes" role="status"></span><div><button id="prev-certidoes" class="secondary" aria-label="Página anterior de certidões">Anterior</button><span id="page-certidoes"></span><button id="next-certidoes" class="secondary" aria-label="Próxima página de certidões">Próxima</button></div></div>
+      </section>
+    </section>
+    <details class="sources"><summary>Arquivos utilizados e observações da leitura <span id="warning-count"></span></summary><div id="sources"></div><ul id="warnings"></ul></details>
+    <p class="footnote">A comparação consulta as planilhas. As ações indicam o que precisa ser ajustado no SIEG ou na pasta. Nenhum certificado é enviado ou alterado pela aplicação.</p>
+  </main>
+  <dialog id="detail"><div class="dialog-top"><div><p class="eyebrow">DETALHES DO CLIENTE</p><h2 id="detail-title"></h2></div><button id="close-detail" class="secondary" aria-label="Fechar detalhes">Fechar</button></div><div id="detail-body"></div></dialog>
+</body>
+</html>

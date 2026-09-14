@@ -1,0 +1,10 @@
+{% extends 'conta_base.html' %}{% block content %}<section class="card"><h1>{{ 'Editar usuário' if uid else 'Cadastrar usuário' }}</h1>
+{% if error %}<div class="error" role="alert">{{ error }}</div>{% endif %}
+<form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+<div class="grid"><div><label for="name">Nome</label><input name="name" id="name" value="{{ edited.name }}" maxlength="100" required></div><div><label for="username">Login</label><input name="username" id="username" value="{{ edited.username }}" minlength="3" maxlength="64" required autocomplete="off"></div>
+<div><label for="password">{{ 'Nova senha' if uid else 'Senha' }}</label><input name="password" id="password" type="password" minlength="4" maxlength="128" autocomplete="new-password" {% if not uid %}required{% endif %}></div><div><label for="confirm">Repita a senha</label><input name="password_confirm" id="confirm" type="password" minlength="4" maxlength="128" autocomplete="new-password" {% if not uid %}required{% endif %}></div></div>
+<p class="muted">Mínimo de 4 caracteres. Senhas somente numéricas são aceitas, como 1234.{% if uid %} Deixe as senhas vazias para manter a atual. Redefinir a senha encerra as sessões desse usuário.{% endif %}</p>
+<label class="check"><input type="checkbox" name="active" {% if edited.active %}checked{% endif %}>Conta ativa</label>
+<label class="check"><input type="checkbox" name="admin" {% if edited.admin %}checked{% endif %}>Administrador: gerencia usuários e acessa todos os aplicativos</label>
+<fieldset><legend>Aplicativos permitidos para usuário comum</legend>{% for app in aplicativos %}<label class="check"><input type="checkbox" name="routes" value="{{ app.rota }}" {% if app.rota in edited.routes %}checked{% endif %}>{{ app.nome }}</label>{% endfor %}<p class="muted">Sem seleção, o usuário entra no portal, mas não acessa aplicativos.</p></fieldset>
+<button type="submit">Salvar usuário</button> <a href="/admin/usuarios" style="margin-left:20px">Cancelar</a></form></section>{% endblock %}

@@ -1,0 +1,40 @@
+14/09/2026 07:14:56 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
+2026-09-14 07:14:56,978 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+Backend do portal em 127.0.0.1:8081; acesso externo somente pelo proxy HTTPS local.
+2026-09-14 07:14:57,524 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 07:45:58,178 | ERROR | portal.servidor | Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\acesso.py", line 67, in login
+    sid,error=users.authenticate(request.form.get('username',''),request.form.get('password',''),request.remote_addr or '')
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\usuarios.py", line 119, in authenticate
+    db.execute('DELETE FROM failures WHERE occurred<?',(now-900,))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+2026-09-14 07:46:03,667 | ERROR | portal.servidor | Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\C\Projetos_Phyton\Portal_Apps\.venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\acesso.py", line 67, in login
+    sid,error=users.authenticate(request.form.get('username',''),request.form.get('password',''),request.remote_addr or '')
+              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\C\Projetos_Phyton\Portal_Apps\portal\usuarios.py", line 119, in authenticate
+    db.execute('DELETE FROM failures WHERE occurred<?',(now-900,))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked

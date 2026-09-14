@@ -1,0 +1,21 @@
+CERTIFICADOS DIGITAIS ICC - FECHAMENTO HTTPS
+============================================
+
+Alterações desta entrega:
+- compatibilidade correta com proxy HTTPS via ProxyFix, confiando apenas em scheme/host;
+- operações sensíveis exigem passagem pelo proxy local do servidor;
+- botão INSTALAR permanece desabilitado quando o HTTPS/URL pública não coincidem;
+- senha corrigida também exige o endereço HTTPS configurado;
+- complemento Caddy para https://10.10.10.154/;
+- detecção automática da rota do módulo pelo aplicativos.json;
+- backup do portal antes das alterações;
+- tentativa conservadora de bind do backend em 127.0.0.1;
+- firewall bloqueando acesso direto à porta 8080 nas redes privadas;
+- tarefa do Caddy executada como SYSTEM na inicialização do Windows;
+- exportação exclusiva do root.crt público;
+- cálculo e verificação de impressão digital SHA256 da CA;
+- instalador de confiança HTTPS por estação;
+- teste de 443 disponível / 8080 bloqueada;
+- script de reversão da última implantação.
+
+Arquivos de certificado privado, PFX/P12 de clientes ou chaves privadas da CA NÃO fazem parte deste pacote.

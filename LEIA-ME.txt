@@ -1,0 +1,69 @@
+PORTAL DE APLICATIVOS INTEGRADO | 08/09/2026
+
+MIGRAR DO PORTAL COM LOGIN
+1. Aguarde todas as execuções terminarem e pare o portal com Ctrl+C.
+2. Extraia este ZIP em uma PASTA NOVA. Não substitua a pasta que funciona.
+3. Copie seu config.ini atual para a nova pasta, substituindo o exemplo.
+4. Copie a pasta dados/ INTEIRA do portal atual para a nova pasta.
+   Ela preserva usuários, permissões e chave de sessão. Não copie a .venv.
+   Sem dados/, o portal solicitará um novo administrador.
+5. Mantenha o aplicativos.json deste pacote: ele já contém os dez aplicativos.
+   Se cadastrou outros apps depois do Portal_Apps_Login, una as entradas e copie
+   suas pastas; não substitua cegamente o cadastro por uma versão antiga.
+6. Abra config_apps.ini e confira os caminhos dos NOVOS aplicativos.
+   Os caminhos foram extraídos dos códigos enviados. Não precisam coincidir
+   com os caminhos das máquinas clientes: o notebook servidor precisa acessá-los.
+7. Execute 1_instalar.bat.
+8. Para usar Emitir Guias, execute também 5_instalar_navegador_guias.bat
+   na mesma conta Windows que iniciará o portal.
+9. Execute 6_verificar_configuracao.bat para conferir bibliotecas e caminhos.
+   Pastas inacessíveis devem ser corrigidas antes de usar o aplicativo afetado.
+10. Execute 2_iniciar_portal.bat e entre com sua conta atual.
+11. Em Gerenciar usuários, marque quais NOVOS aplicativos cada pessoa pode usar.
+    Administradores têm acesso a todos. Usuários comuns precisam de liberação.
+
+Mantendo a porta de config.ini, use o mesmo endereço e a regra de firewall atual.
+Os computadores clientes continuam sem precisar de Python.
+Use Python 3.10 ou superior no servidor, preferencialmente 64 bits.
+Não execute os BATs dos projetos antigos junto ao portal para estas integrações.
+
+APLICATIVOS NO MENU
+- Buscar PDFs: versão por cliente já integrada, preservada.
+- Planilha Amanda: versão com RCF e correção de download, preservada.
+- Buscar PDFs por CNPJ: procura o CNPJ no texto, com índice incremental local.
+- Carta Frete: envia PDF do relatório de viagens e baixa XLSX.
+- Buscar NF-es: CPF/CNPJ, ano, Entrada/Saída/Ambas e chaves; baixa ZIP de XML/PDF.
+- Emitir Guias: envio de planilha, emissão por CNPJ, acompanhamento e ZIP.
+- Aberturas e Alterações: relatório da planilha compartilhada e envio confirmado.
+- Análise de E-mails: upload dos CSVs, análise e arquivos para revisão.
+- Inventário de Certificados: classificação por data de modificação do arquivo.
+- Validade dos Certificados: leitura real do certificado e dashboard original.
+
+INSTRUÇÕES ESPECÍFICAS
+Consulte docs/APLICATIVOS_E_CONFIGURACOES.md antes do primeiro uso.
+Consulte docs/VALIDACAO_INTEGRACAO.txt para os testes e as limitações.
+Consulte docs/PROJETOS_WINDOWS.md para as três rotinas que ficam fora do menu.
+
+IMPORTANTE PARA PRESERVAR DADOS
+- Faça backup de dados/, config.ini, config_apps.ini e aplicativos.json.
+- dados/execucoes/ guarda entradas, resultados e logs privados por usuário.
+- dados/apps/ guarda índices e estados persistentes dos aplicativos.
+- Os resultados não são apagados automaticamente. Planeje a limpeza de execuções
+  antigas com o portal parado, conforme a retenção necessária ao escritório.
+- Não apague dados/usuarios.sqlite3 nem dados/chave_sessao.txt ao limpar resultados.
+- O pacote não contém contas prontas, senha SMTP, certificados PFX/P12,
+  documentos reais, relatórios anteriores nem o índice de PDFs recebido no ZIP.
+
+ESCOPO
+Login e permissão continuam sendo por APLICATIVO, não por cliente/documento.
+Quem pode pesquisar PDFs ou certificados acessa as pastas configuradas para esse app.
+Resultados gerados nas novas rotinas só podem ser baixados pelo usuário que os criou,
+mesmo que outro usuário também tenha acesso ao aplicativo.
+Uma execução por vez por aplicativo nas rotinas com acompanhamento; até três
+processos simultâneos no conjunto dessas rotinas. Outros pedidos recebem mensagem
+para aguardar. O limite por envio é 32 MB (busca CNPJ: 1 MB de formulário).
+Não há fila persistente nem retomada automática após desligamento: confira o estado
+antes de repetir operações que alteram planilhas ou emitem guias.
+Não interrompa o portal durante emissão de guias. Ao fechar normalmente, uma rotina
+em subprocesso ainda pode precisar terminar antes de o processo encerrar.
+O portal permanece em HTTP interno. Este pacote não configura acesso externo.

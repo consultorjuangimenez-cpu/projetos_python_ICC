@@ -1,0 +1,6 @@
+C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_certificados\processamento.py:344: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  return certificate.not_valid_after
+C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_certificados\processamento.py:339: UserWarning: PKCS#12 bundle could not be parsed as DER, falling back to parsing as BER. Please file an issue at https://github.com/pyca/cryptography/issues explaining how your PKCS#12 bundle was created. In the future, this may become an exception.
+  _, certificate, _ = pkcs12.load_key_and_certificates(
+Processo concluído. 638 certificado(s) encontrado(s). Planilha atualizada em:
+C:\C\Projetos_Phyton\Portal_Apps\dados\execucoes\monitora_certificados\d375f0ac56544759a5fd286d04c89b1b\trabalho\Relatorio_Certificados.xlsx

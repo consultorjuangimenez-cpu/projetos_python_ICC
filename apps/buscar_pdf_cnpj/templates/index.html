@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buscar PDFs por CNPJ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="container">
+        <header class="topo">
+            <div>
+                <p class="rotulo">ICC CONTABILIDADE</p>
+                <h1>Buscar PDFs por CNPJ</h1>
+                <p>Localize documentos pelo CNPJ gravado no conteúdo do PDF.</p>
+            </div>
+            <span class="versao">v{{ versao }}</span>
+        </header>
+
+        <section class="card busca-card">
+            <form action="{{ url_for('buscar') }}" method="post" id="formBusca">
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <label for="cnpj">CNPJ do cliente</label>
+                <div class="linha-busca">
+                    <input type="text" id="cnpj" name="cnpj" value="{{ cnpj_digitado or '' }}"
+                           placeholder="00.000.000/0000-00" inputmode="numeric" maxlength="18"
+                           autocomplete="off" required>
+                    <button type="submit">Buscar documentos</button>
+                </div>
+                <p class="pasta">Pasta pesquisada: {{ pasta_documentos }}</p>
+            </form>
+        </section>
+
+        <section class="card indice-card">
+            <div class="acoes">
+                <div>
+                    <strong id="estadoIndice" role="status">Consultando o índice...</strong>
+                    <p id="detalheIndice" class="pasta"></p>
+                </div>
+                <button type="button" id="atualizarIndice">Atualizar índice</button>
+            </div>
+            <p class="pasta">A busca usa o índice salvo. Após adicionar, alterar ou excluir PDFs, clique em Atualizar índice.
+            Você pode pesquisar durante a atualização; os resultados podem estar incompletos até o término.</p>
+        </section>
+
+        {% if erro %}<section class="alerta erro">{{ erro }}</section>{% endif %}
+
+        {% if indice_incompativel %}
+        <section class="alerta erro">Há registros no banco, mas os caminhos não correspondem à pasta configurada.
+            O índice foi preservado. Confira a pasta de documentos e o diagnóstico registrado no log.</section>
+        {% elif indice_parcial %}
+        <section class="alerta aviso"><strong>Busca parcial: a atualização ainda está em andamento.</strong>
+            Um resultado vazio neste momento não significa que o PDF não existe.
+            Ao concluir, faça a busca novamente.</section>
+        {% endif %}
+
+        {% if estatisticas %}
+        <section class="resumo-grid">
+            <article><strong>{{ resultados|length }}</strong><span>Encontrados</span></article>
+            <article><strong>{{ estatisticas.total_pdfs }}</strong><span>PDFs no índice</span></article>
+            <article><strong>{{ estatisticas.lidos }}</strong><span>Lidos nesta busca</span></article>
+            <article><strong>{{ estatisticas.reaproveitados }}</strong><span>Reaproveitados</span></article>
+        </section>
+        {% if estatisticas.sem_texto or estatisticas.erros %}
+        <section class="alerta aviso">
+            {{ estatisticas.sem_texto }} PDF(s) sem texto extraível e
+            {{ estatisticas.erros }} com erro de leitura. Consulte o log.
+        </section>
+        {% endif %}
+        {% endif %}
+
+        {% if resultados %}
+        <section class="card resultados-card">
+            <div class="titulo-resultados">
+                <div>
+                    <h2>Documentos encontrados</h2>
+                    <p>CNPJ: {{ cnpj_encontrado }} | Busca concluída em {{ '%.1f'|format(duracao) }} s</p>
+                </div>
+                <label class="selecionar-todos">
+                    <input type="checkbox" id="selecionarTodos"> Selecionar todos
+                </label>
+            </div>
+
+            <form action="{{ url_for('baixar') }}" method="post" id="formDownload">
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+                <input type="hidden" name="token" value="{{ token }}">
+                <div class="tabela-container">
+                    <table>
+                        <thead><tr><th class="col-check"></th><th>Arquivo</th><th>Localização</th><th class="col-tamanho">Tamanho</th></tr></thead>
+                        <tbody>
+                            {% for arquivo in resultados %}
+                            <tr>
+                                <td><input type="checkbox" name="arquivos" value="{{ arquivo.id }}" class="arquivo-check"></td>
+                                <td>{{ arquivo.nome }}</td>
+                                <td class="caminho">{{ arquivo.caminho_relativo }}</td>
+                                <td>{{ arquivo.tamanho }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="acoes">
+                    <span id="contador">0 arquivo(s) selecionado(s)</span>
+                    <button type="submit" class="botao-download" disabled id="botaoDownload">Baixar selecionados em ZIP</button>
+                </div>
+            </form>
+        </section>
+        {% elif estatisticas %}
+        <section class="alerta aviso">Nenhum PDF com esse CNPJ foi encontrado no índice atual. Se houver atualização em andamento, aguarde a conclusão e pesquise novamente.</section>
+        {% endif %}
+    </main>
+
+    <div class="carregando" id="carregando" hidden>
+        <div class="spinner"></div>
+        <strong>Pesquisando no índice...</strong>
+        <span>A consulta usa os dados já salvos.</span>
+    </div>
+
+    <script>
+        const cnpj = document.getElementById('cnpj');
+        const formBusca = document.getElementById('formBusca');
+        const carregando = document.getElementById('carregando');
+        cnpj?.addEventListener('input', () => {
+            let valor = cnpj.value.replace(/\D/g, '').slice(0, 14);
+            valor = valor.replace(/^(\d{2})(\d)/, '$1.$2');
+            valor = valor.replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3');
+            valor = valor.replace(/\.(\d{3})(\d)/, '.$1/$2');
+            valor = valor.replace(/(\d{4})(\d)/, '$1-$2');
+            cnpj.value = valor;
+        });
+        formBusca?.addEventListener('submit', () => carregando.hidden = false);
+        window.addEventListener('pageshow', () => { carregando.hidden = true; atualizarSelecao(); });
+
+        const selecionarTodos = document.getElementById('selecionarTodos');
+        const checks = [...document.querySelectorAll('.arquivo-check')];
+        const contador = document.getElementById('contador');
+        const botaoDownload = document.getElementById('botaoDownload');
+        function atualizarSelecao() {
+            const quantidade = checks.filter(check => check.checked).length;
+            if (contador) contador.textContent = `${quantidade} arquivo(s) selecionado(s)`;
+            if (botaoDownload) botaoDownload.disabled = quantidade === 0;
+            if (selecionarTodos) {
+                selecionarTodos.checked = quantidade > 0 && quantidade === checks.length;
+                selecionarTodos.indeterminate = quantidade > 0 && quantidade < checks.length;
+            }
+        }
+        selecionarTodos?.addEventListener('change', () => {
+            checks.forEach(check => check.checked = selecionarTodos.checked);
+            atualizarSelecao();
+        });
+        checks.forEach(check => check.addEventListener('change', atualizarSelecao));
+        atualizarSelecao();
+
+        const estadoIndice = document.getElementById('estadoIndice');
+        const detalheIndice = document.getElementById('detalheIndice');
+        const atualizarIndice = document.getElementById('atualizarIndice');
+        let estavaAtualizando = false;
+        async function consultarIndice() {
+            try {
+                const resposta = await fetch({{ url_for('estado_indice')|tojson }}, {cache: 'no-store'});
+                if (!resposta.ok || !resposta.headers.get('content-type')?.includes('application/json')) {
+                    throw new Error('Não foi possível consultar o índice. Verifique sua sessão no portal.');
+                }
+                const estado = await resposta.json();
+                atualizarIndice.disabled = estado.executando;
+                if (estado.executando) {
+                    estadoIndice.textContent = `Atualizando: ${estado.verificados} PDF(s) verificado(s), ${estado.lidos} lido(s), ${estado.reaproveitados} reaproveitado(s).`;
+                    detalheIndice.textContent = estado.arquivo_atual || 'Localizando PDFs na pasta...';
+                } else if (estado.total_pdfs === 0 && estado.total_banco > 0) {
+                    estadoIndice.textContent = 'O banco contém registros, mas a pasta configurada não foi reconhecida.';
+                    detalheIndice.textContent = 'O índice foi preservado. Confira o caminho configurado e o diagnóstico no log.';
+                } else {
+                    estadoIndice.textContent = estado.erro || `Índice disponível: ${estado.total_pdfs} PDF(s).`;
+                    detalheIndice.textContent = estado.erro ? 'Consulte o log para identificar a falha.' :
+                        (estavaAtualizando ? 'Atualização finalizada. Faça a busca novamente para ver os resultados atualizados.' :
+                        (estado.ultima_atualizacao ? `Última atualização: ${estado.ultima_atualizacao.replace('T', ' ')}.` :
+                        'Clique em Atualizar índice para conferir arquivos novos, alterados e removidos.'));
+                    if (estado.erros || estado.sem_texto) detalheIndice.textContent += ` Atenção: ${estado.erros || 0} erro(s) e ${estado.sem_texto || 0} PDF(s) sem texto na última execução. Consulte o log.`;
+                }
+                estavaAtualizando = estado.executando;
+            } catch (erro) {
+                estadoIndice.textContent = erro.message;
+                atualizarIndice.disabled = false;
+            }
+        }
+        atualizarIndice.addEventListener('click', async () => {
+            atualizarIndice.disabled = true;
+            try {
+                const dados = new FormData(formBusca);
+                const resposta = await fetch({{ url_for('solicitar_atualizacao')|tojson }}, {method: 'POST', body: dados});
+                if (!resposta.ok || !resposta.headers.get('content-type')?.includes('application/json')) {
+                    throw new Error('Não foi possível iniciar a atualização. Recarregue a página e tente novamente.');
+                }
+                await consultarIndice();
+            } catch (erro) {
+                estadoIndice.textContent = erro.message;
+                atualizarIndice.disabled = false;
+            }
+        });
+        async function acompanharIndice() {
+            await consultarIndice();
+            setTimeout(acompanharIndice, 5000);
+        }
+        acompanharIndice();
+    </script>
+</body>
+</html>

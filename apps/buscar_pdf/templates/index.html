@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Buscador de Documentos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #f4f6f8;
+            color: #243447;
+            font-family:
+                "Segoe UI",
+                Arial,
+                sans-serif;
+        }
+
+        header {
+            background: #17365d;
+            color: #ffffff;
+            padding: 22px 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 6px 0 0;
+            opacity: 0.82;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 920px;
+            margin: 35px auto;
+            padding: 0 20px 40px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow:
+                0 5px 20px rgba(23, 54, 93, 0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #17365d;
+        }
+
+        .description {
+            color: #66788a;
+            margin-bottom: 28px;
+            line-height: 1.5;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        .field-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .autocomplete {
+            position: relative;
+        }
+
+        #clientInput {
+            width: 100%;
+            height: 48px;
+            padding: 0 14px;
+            border: 1px solid #ccd5df;
+            border-radius: 7px;
+            font-size: 16px;
+            background: #ffffff;
+        }
+
+        #clientInput:focus {
+            outline: none;
+            border-color: #2d6aa3;
+            box-shadow:
+                0 0 0 3px rgba(45, 106, 163, 0.12);
+        }
+
+        .suggestions {
+            display: none;
+            position: absolute;
+            z-index: 20;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            background: #ffffff;
+            border: 1px solid #ccd5df;
+            border-radius: 7px;
+            box-shadow:
+                0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .suggestion {
+            padding: 12px 14px;
+            cursor: pointer;
+            border-bottom: 1px solid #eef1f4;
+        }
+
+        .suggestion:last-child {
+            border-bottom: 0;
+        }
+
+        .suggestion:hover,
+        .suggestion.active {
+            background: #edf5fb;
+        }
+
+        .client-info {
+            margin-top: 8px;
+            color: #748596;
+            font-size: 14px;
+        }
+
+        .message {
+            margin-bottom: 20px;
+            padding: 14px 16px;
+            border-radius: 7px;
+            line-height: 1.4;
+            font-size: 14px;
+        }
+
+        .message.error {
+            background: #fff1f1;
+            border: 1px solid #efb7b7;
+            color: #942828;
+        }
+
+        .message.info {
+            background: #edf5fb;
+            border: 1px solid #bfd9ec;
+            color: #315d80;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .documents-section {
+            margin-top: 30px;
+            border-top: 1px solid #e5e9ed;
+            padding-top: 25px;
+        }
+
+        .documents-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .documents-header h3 {
+            margin: 0;
+            color: #17365d;
+        }
+
+        .counter {
+            padding: 5px 10px;
+            background: #edf3f8;
+            border-radius: 20px;
+            color: #45647c;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .toolbar-left {
+            display: flex;
+            gap: 8px;
+        }
+
+        .small-button {
+            border: 1px solid #c9d3dc;
+            background: #ffffff;
+            color: #31566f;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        .small-button:hover {
+            background: #f1f5f8;
+        }
+
+        .document-list {
+            max-height: 480px;
+            overflow-y: auto;
+            border: 1px solid #dce3ea;
+            border-radius: 8px;
+            background: #ffffff;
+        }
+
+        .document-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 13px 15px;
+            border-bottom: 1px solid #edf0f3;
+            cursor: pointer;
+        }
+
+        .document-row:last-child {
+            border-bottom: 0;
+        }
+
+        .document-row:hover {
+            background: #f7f9fb;
+        }
+
+        .document-row input {
+            width: 18px;
+            height: 18px;
+            margin-top: 2px;
+            accent-color: #24659b;
+            flex-shrink: 0;
+        }
+
+        .document-text {
+            min-width: 0;
+        }
+
+        .document-name {
+            display: block;
+            color: #263746;
+            font-size: 14px;
+            font-weight: 500;
+            word-break: break-word;
+        }
+
+        .document-path {
+            display: block;
+            margin-top: 3px;
+            color: #8695a4;
+            font-size: 14px;
+            word-break: break-word;
+        }
+
+        .download-button {
+            width: 100%;
+            margin-top: 22px;
+            height: 50px;
+            border: 0;
+            border-radius: 7px;
+            background: #24733e;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            background: #1c5c31;
+        }
+
+        .download-button:disabled {
+            background: #9aaca1;
+            cursor: not-allowed;
+        }
+
+        .loading {
+            padding: 30px;
+            text-align: center;
+            color: #60788d;
+        }
+
+        .empty {
+            padding: 35px 20px;
+            text-align: center;
+            color: #788b9d;
+        }
+
+        footer {
+            margin-top: 18px;
+            text-align: center;
+            color: #8c9aa6;
+            font-size: 14px;
+        }
+
+        @media (max-width: 650px) {
+            main {
+                margin-top: 20px;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            header {
+                padding: 18px 20px;
+            }
+
+            .documents-header {
+                align-items: flex-start;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Buscador de Documentos</h1>
+
+        <p>
+            Selecione o cliente e escolha os documentos para download
+        </p>
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <h2>Documentos do cliente</h2>
+
+            <p class="description">
+                Digite parte do nome do cliente. Após selecionar o
+                cliente, os documentos PDF serão carregados
+                automaticamente.
+            </p>
+
+            {% if error %}
+                <div class="message error">
+                    {{ error }}
+                </div>
+            {% endif %}
+
+            <div
+                id="message"
+                class="message info hidden"
+            ></div>
+
+            <div class="form-group">
+
+                <label
+                    for="clientInput"
+                    class="field-label"
+                >
+                    Cliente
+                </label>
+
+                <div class="autocomplete">
+
+                    <input
+                        type="text"
+                        id="clientInput"
+                        placeholder="Digite o nome do cliente..."
+                        autocomplete="off"
+                    >
+
+                    <div
+                        id="suggestions"
+                        class="suggestions"
+                    ></div>
+
+                </div>
+
+                <div class="client-info">
+                    {{ clients|length }} clientes disponíveis
+                </div>
+
+            </div>
+
+            <form
+                id="downloadForm"
+                method="post"
+                action="{{ url_for('download_documents') }}"
+            >
+                <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+                <input
+                    type="hidden"
+                    id="selectedClient"
+                    name="cliente"
+                >
+
+                <section
+                    id="documentsSection"
+                    class="documents-section hidden"
+                >
+
+                    <div class="documents-header">
+
+                        <h3 id="clientTitle">
+                            Documentos
+                        </h3>
+
+                        <span
+                            id="documentCounter"
+                            class="counter"
+                        >
+                            0 documentos
+                        </span>
+
+                    </div>
+
+                    <div class="toolbar">
+
+                        <div class="toolbar-left">
+
+                            <button
+                                type="button"
+                                id="selectAll"
+                                class="small-button"
+                            >
+                                Selecionar todos
+                            </button>
+
+                            <button
+                                type="button"
+                                id="clearAll"
+                                class="small-button"
+                            >
+                                Limpar seleção
+                            </button>
+
+                        </div>
+
+                        <span
+                            id="selectedCounter"
+                            class="counter"
+                        >
+                            0 selecionados
+                        </span>
+
+                    </div>
+
+                    <div
+                        id="documentList"
+                        class="document-list"
+                    ></div>
+
+                    <button
+                        type="submit"
+                        id="downloadButton"
+                        class="download-button"
+                        disabled
+                    >
+                        Baixar documentos selecionados
+                    </button>
+
+                </section>
+
+            </form>
+
+        </section>
+
+        <footer>
+            Consulta de documentos · Rede interna
+        </footer>
+
+    </main>
+
+    <script>
+        const clients = {{ clients | tojson }};
+
+        const clientInput = document.getElementById(
+            "clientInput"
+        );
+
+        const suggestions = document.getElementById(
+            "suggestions"
+        );
+
+        const selectedClient = document.getElementById(
+            "selectedClient"
+        );
+
+        const documentsSection = document.getElementById(
+            "documentsSection"
+        );
+
+        const documentList = document.getElementById(
+            "documentList"
+        );
+
+        const clientTitle = document.getElementById(
+            "clientTitle"
+        );
+
+        const documentCounter = document.getElementById(
+            "documentCounter"
+        );
+
+        const selectedCounter = document.getElementById(
+            "selectedCounter"
+        );
+
+        const downloadButton = document.getElementById(
+            "downloadButton"
+        );
+
+        const message = document.getElementById(
+            "message"
+        );
+
+        const selectAllButton = document.getElementById(
+            "selectAll"
+        );
+
+        const clearAllButton = document.getElementById(
+            "clearAll"
+        );
+
+        let currentDocuments = [];
+        let requestVersion = 0;
+
+
+        function normalizeText(value) {
+            return value
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase();
+        }
+
+
+        function hideMessage() {
+            message.classList.add("hidden");
+            message.textContent = "";
+        }
+
+
+        function showMessage(text, type = "info") {
+            message.textContent = text;
+
+            message.className = (
+                "message " + type
+            );
+        }
+
+
+        function hideSuggestions() {
+            suggestions.style.display = "none";
+            suggestions.innerHTML = "";
+        }
+
+
+        function showSuggestions(searchText) {
+            const normalizedSearch = normalizeText(
+                searchText.trim()
+            );
+
+            suggestions.innerHTML = "";
+
+            if (!normalizedSearch) {
+                hideSuggestions();
+                return;
+            }
+
+            const matches = clients.filter(
+                function (client) {
+                    return normalizeText(client).includes(
+                        normalizedSearch
+                    );
+                }
+            );
+
+            if (matches.length === 0) {
+                hideSuggestions();
+                return;
+            }
+
+            matches.slice(0, 50).forEach(
+                function (client) {
+                    const option = document.createElement(
+                        "div"
+                    );
+
+                    option.className = "suggestion";
+                    option.textContent = client;
+
+                    option.addEventListener(
+                        "mousedown",
+                        function (event) {
+                            event.preventDefault();
+                            chooseClient(client);
+                        }
+                    );
+
+                    suggestions.appendChild(option);
+                }
+            );
+
+            suggestions.style.display = "block";
+        }
+
+
+        async function chooseClient(client) {
+            clientInput.value = client;
+            selectedClient.value = client;
+
+            hideSuggestions();
+            hideMessage();
+
+            await loadDocuments(client);
+        }
+
+
+        async function loadDocuments(client) {
+            const version = ++requestVersion;
+            documentsSection.classList.remove(
+                "hidden"
+            );
+
+            clientTitle.textContent = (
+                "Documentos - " + client
+            );
+
+            documentCounter.textContent = (
+                "Carregando..."
+            );
+
+            selectedCounter.textContent = (
+                "0 selecionados"
+            );
+
+            downloadButton.disabled = true;
+
+            documentList.innerHTML = (
+                '<div class="loading">'
+                + "Carregando documentos..."
+                + "</div>"
+            );
+
+            try {
+                const response = await fetch(
+                    {{ url_for("api_documents") | tojson }} + "?cliente="
+                    + encodeURIComponent(client)
+                );
+
+                const data = await response.json();
+                if (version !== requestVersion) return;
+
+                if (!response.ok || !data.success) {
+                    throw new Error(
+                        data.message
+                        || "Erro ao carregar documentos."
+                    );
+                }
+
+                currentDocuments = data.documents;
+
+                renderDocuments(
+                    currentDocuments
+                );
+
+            } catch (error) {
+                if (version !== requestVersion) return;
+                currentDocuments = [];
+
+                documentList.innerHTML = "";
+
+                documentCounter.textContent = (
+                    "0 documentos"
+                );
+
+                showMessage(
+                    error.message,
+                    "error"
+                );
+            }
+        }
+
+
+        function renderDocuments(documents) {
+            documentList.innerHTML = "";
+
+            documentCounter.textContent = (
+                documents.length
+                + (
+                    documents.length === 1
+                        ? " documento"
+                        : " documentos"
+                )
+            );
+
+            if (documents.length === 0) {
+                documentList.innerHTML = (
+                    '<div class="empty">'
+                    + "Nenhum PDF encontrado para este cliente."
+                    + "</div>"
+                );
+
+                updateSelectedCount();
+                return;
+            }
+
+            documents.forEach(
+                function (documentItem) {
+                    const label = document.createElement(
+                        "label"
+                    );
+
+                    label.className = "document-row";
+
+                    const checkbox = document.createElement(
+                        "input"
+                    );
+
+                    checkbox.type = "checkbox";
+                    checkbox.name = "documentos";
+                    checkbox.value = documentItem.path;
+
+                    checkbox.addEventListener(
+                        "change",
+                        updateSelectedCount
+                    );
+
+                    const textContainer = (
+                        document.createElement("span")
+                    );
+
+                    textContainer.className = (
+                        "document-text"
+                    );
+
+                    const fileName = (
+                        document.createElement("span")
+                    );
+
+                    fileName.className = (
+                        "document-name"
+                    );
+
+                    fileName.textContent = (
+                        documentItem.name
+                    );
+
+                    textContainer.appendChild(fileName);
+
+                    if (
+                        documentItem.path
+                        !== documentItem.name
+                    ) {
+                        const pathText = (
+                            document.createElement("span")
+                        );
+
+                        pathText.className = (
+                            "document-path"
+                        );
+
+                        pathText.textContent = (
+                            documentItem.path
+                        );
+
+                        textContainer.appendChild(
+                            pathText
+                        );
+                    }
+
+                    label.appendChild(checkbox);
+                    label.appendChild(textContainer);
+
+                    documentList.appendChild(label);
+                }
+            );
+
+            updateSelectedCount();
+        }
+
+
+        function getDocumentCheckboxes() {
+            return documentList.querySelectorAll(
+                'input[name="documentos"]'
+            );
+        }
+
+
+        function updateSelectedCount() {
+            const checkboxes = (
+                getDocumentCheckboxes()
+            );
+
+            let selected = 0;
+
+            checkboxes.forEach(
+                function (checkbox) {
+                    if (checkbox.checked) {
+                        selected += 1;
+                    }
+                }
+            );
+
+            selectedCounter.textContent = (
+                selected
+                + (
+                    selected === 1
+                        ? " selecionado"
+                        : " selecionados"
+                )
+            );
+
+            downloadButton.disabled = (
+                selected === 0
+            );
+        }
+
+
+        clientInput.addEventListener(
+            "input",
+            function () {
+                selectedClient.value = "";
+                requestVersion++;
+                documentList.innerHTML = "";
+                downloadButton.disabled = true;
+
+                documentsSection.classList.add(
+                    "hidden"
+                );
+
+                showSuggestions(
+                    clientInput.value
+                );
+            }
+        );
+
+
+        clientInput.addEventListener(
+            "focus",
+            function () {
+                if (clientInput.value.trim()) {
+                    showSuggestions(
+                        clientInput.value
+                    );
+                }
+            }
+        );
+
+
+        document.addEventListener(
+            "click",
+            function (event) {
+                if (
+                    !event.target.closest(
+                        ".autocomplete"
+                    )
+                ) {
+                    hideSuggestions();
+                }
+            }
+        );
+
+
+        selectAllButton.addEventListener(
+            "click",
+            function () {
+                getDocumentCheckboxes().forEach(
+                    function (checkbox) {
+                        checkbox.checked = true;
+                    }
+                );
+
+                updateSelectedCount();
+            }
+        );
+
+
+        clearAllButton.addEventListener(
+            "click",
+            function () {
+                getDocumentCheckboxes().forEach(
+                    function (checkbox) {
+                        checkbox.checked = false;
+                    }
+                );
+
+                updateSelectedCount();
+            }
+        );
+
+
+        document.getElementById(
+            "downloadForm"
+        ).addEventListener(
+            "submit",
+            function (event) {
+                if (!selectedClient.value) {
+                    event.preventDefault();
+
+                    showMessage(
+                        "Selecione um cliente da lista.",
+                        "error"
+                    );
+
+                    return;
+                }
+
+                const selected = Array.from(
+                    getDocumentCheckboxes()
+                ).filter(
+                    function (checkbox) {
+                        return checkbox.checked;
+                    }
+                );
+
+                if (selected.length === 0) {
+                    event.preventDefault();
+
+                    showMessage(
+                        "Selecione pelo menos um documento.",
+                        "error"
+                    );
+                }
+            }
+        );
+    </script>
+
+</body>
+
+</html>

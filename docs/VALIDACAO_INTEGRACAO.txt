@@ -1,0 +1,59 @@
+VALIDAÇÃO DA INTEGRAÇÃO | 08/09/2026
+
+Executado em ambiente Linux/Python 3.12, com dados sintéticos e o PDF de Carta Frete
+fornecido no ZIP. Nenhum certificado privado recebido foi aberto nos testes.
+As bibliotecas do requirements.txt foram instaladas; as rotinas dependentes de
+pandas foram verificadas novamente com as versões exatas do pacote.
+
+VERIFICAÇÕES CONCLUÍDAS
+- Sintaxe de todos os módulos Python e do JavaScript de download.
+- Login real por formulário com cookie/CSRF e abertura das dez aplicações.
+- Usuário sem permissão bloqueado pelas URLs diretas; menu filtrado.
+- Administração restrita e revogação de permissão na sessão já aberta.
+- Rejeição dos POSTs sem token CSRF nos oito aplicativos novos.
+- CNPJ: PDF sintético com texto, índice, ZIP e token de resultado vinculado ao usuário.
+- Carta Frete: PDF real, 1.346 viagens; registros e valores das células do XLSX
+  iguais ao app original. Download HTTP como anexo validado.
+- NF-es: pesquisa em subprocesso; namespace XML; duas chaves com mesmo número
+  de nota; filtro de Entrada; ZIP com quatro arquivos e chaves não localizadas.
+- Logs de e-mail: processamento em subprocesso com CSV sintético e lista de
+  liberados; originais preservados; acesso ao log privado da execução.
+- Certificados: PFX sintético gerado para o teste; inventário e validação real
+  da data de validade; relatórios XLSX baixados pelo usuário proprietário.
+- Aberturas: geração real de XLSX de teste; atualização da coluna I; backup;
+  download exclusivo do usuário. Envio SMTP substituído por função simulada;
+  segundo clique não reenviou o relatório.
+- Amanda: upload de XLSX sintético, índice RCF simulado e retorno do CSV com
+  tipo SAI e CPF/CNPJ esperado. O leitor RCF não sofreu alteração neste pacote.
+- Busca PDF e Amanda: comparação dos arquivos confirma preservação do código
+  e dos templates da versão Portal_Apps_Login.
+- Guias: leitura de uma planilha individual, navegador e emissão simulados,
+  saída PDF sintética por execução, rejeição de XLSX inválido.
+- Sobreposição de pedidos: segunda execução no mesmo aplicativo recusada;
+  execução seguinte de outro usuário produz área de resultados separada.
+- Comparação AST confirma que processar_pdf_stream, gerar_excel_stream,
+  avaliar_email, processar_logs e processar_linha_sefaz preservam suas instruções.
+- ZIP sem contas, chave de sessão, senha SMTP original, PFX/P12 ou dados operacionais.
+
+LIMITES DA VALIDAÇÃO
+- BATs, Windows, unidades mapeadas e acesso real de outra estação precisam ser
+  conferidos no notebook. Testes locais HTTP usaram o cliente WSGI do Werkzeug.
+- Não foi feito teste visual em navegador real. O download automático do novo
+  conversor usa JavaScript; o link manual aparece após receber o arquivo.
+- Nenhuma guia real foi emitida e nenhuma conexão SMTP foi feita.
+- A simulação de guia testa a integração, não os seletores atuais do site SEFAZ.
+- Edição da planilha principal de Aberturas ao mesmo tempo pelo Excel não é suportada.
+- O modo de compatibilidade XLS/RCF existente da Amanda foi preservado; a regressão
+  desta integração não revalida cada arquivo histórico de relações.
+
+CHECKLIST NO NOTEBOOK
+[ ] Copiar dados/ e config.ini atuais para a nova pasta, mantendo backup da antiga.
+[ ] Conferir config_apps.ini e instalar bibliotecas.
+[ ] Instalar Chromium para Emitir Guias e verificar o acesso às pastas.
+[ ] Entrar com a conta já cadastrada e liberar os novos projetos para um usuário teste.
+[ ] Abrir cada aplicativo no segundo computador e testar um arquivo conhecido.
+[ ] Conferir downloads de dois usuários diferentes.
+[ ] Manter a planilha de Aberturas fechada no Excel e testar primeiro uma cópia.
+[ ] Configurar o SMTP localmente e conferir destinatários antes do envio de teste.
+[ ] Validar uma emissão de guia com os dados corretos, evitando repetições.
+[ ] Confirmar que usuários e permissões continuam após reiniciar.

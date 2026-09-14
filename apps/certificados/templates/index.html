@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<title>Certificados Digitais | ICC</title>
+<link rel="icon" href="{{ url_for('static',filename='favicon.svg') }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+<script defer src="{{ url_for('static',filename='app.js') }}"></script>
+</head>
+<body data-api="{{ url_for('home') }}" data-admin="{{ '1' if admin else '0' }}">
+<main>
+<div class="heading"><div><div class="eyebrow">GESTÃO E CONTROLE</div><h1>Certificados Digitais</h1><p>Consulte a validade e instale o certificado que precisa.</p></div><div class="actions"><button id="help" class="secondary">Como instalar</button><button id="refresh" class="primary"><span aria-hidden="true">↻</span> Atualizar certificados</button></div></div>
+<div class="sync"><span class="dot"></span><span id="sync-text" aria-live="polite">Carregando inventário...</span><span class="sync-right">Certificados A1 · CPF e CNPJ</span></div>
+<div id="warnings" class="notice" hidden></div>
+<section class="metrics" aria-label="Resumo dos certificados">
+<button class="metric total" data-status=""><span>Total de certificados</span><strong id="count-total">0</strong><small>Arquivos na consulta</small></button>
+<button class="metric valid" data-status="valido"><span>Válidos</span><strong id="count-valido">0</strong><small id="valid-desc">Acima de 30 dias</small></button>
+<button class="metric near" data-status="proximo"><span>Próximos do vencimento</span><strong id="count-proximo">0</strong><small id="near-desc">Vencem em até 30 dias</small></button>
+<button class="metric expired" data-status="vencido"><span>Vencidos</span><strong id="count-vencido">0</strong><small>Prazo de uso encerrado</small></button>
+<button class="metric errors" data-status="erro"><span>Falhas na leitura</span><strong id="count-erro">0</strong><small>Precisam de verificação</small></button>
+</section>
+<section class="charts" aria-label="Gráficos da consulta">
+<article class="panel distribution"><div class="panel-title"><h2>Situação dos certificados</h2><span>Consulta atual</span></div><div class="donut-content"><div id="donut" role="img" aria-label="Distribuição dos certificados"><div><strong id="donut-total">0</strong><span>certificados</span></div></div><div id="legend"></div></div></article>
+<article class="panel timeline"><div class="panel-title"><h2>Vencimentos nos próximos meses</h2><span>Quantidade por mês</span></div><div id="bars" class="bars"></div><p class="chart-note">Inclui certificados vigentes e com início de validade futuro. Clique em um mês para filtrar.</p></article>
+</section>
+<section class="panel inventory">
+<div class="panel-title"><div><h2>Lista de certificados</h2><p id="result-count">Aguardando leitura das pastas.</p></div><button id="export" class="secondary">Exportar Excel</button></div>
+<form id="filters" class="filters" autocomplete="off">
+<label class="search">Cliente ou CPF/CNPJ<input id="search" type="search" placeholder="Digite o nome ou documento" maxlength="160"></label>
+<label>Tipo<select id="kind"><option value="">CPF e CNPJ</option><option value="CPF">CPF</option><option>CNPJ</option></select></label>
+<label>Situação<select id="status"><option value="">Todas as situações</option><option value="valido">Válido</option><option value="proximo">Próximo do vencimento</option><option value="vencido">Vencido</option><option value="erro">Falha na leitura</option><option value="futuro">Ainda não vigente</option></select></label>
+<label>Vencimento a partir de<input id="from" type="date"></label>
+<label>Vencimento até<input id="to" type="date"></label>
+<label>Origem da senha<select id="source"><option value="">Todas as origens</option><option>Nome do arquivo</option><option>Estado legado</option><option>Manual (planilha/legado)</option><option>Corrigida no painel</option></select></label>
+<label>Vence em até<select id="days"><option value="">Qualquer prazo</option><option value="7">7 dias</option><option value="15">15 dias</option><option value="30">30 dias</option><option value="60">60 dias</option><option value="90">90 dias</option></select></label>
+<label>Ordenar por<select id="sort"><option value="vencimento">Vencimento mais próximo</option><option value="cliente">Nome do cliente</option><option value="tipo">Tipo de documento</option><option value="status">Situação</option></select></label>
+<div class="filter-reset"><button type="button" id="reset" class="text-button">Limpar filtros</button></div>
+</form>
+<div class="table-wrap"><table><thead><tr><th>Cliente / documento</th><th>Tipo</th><th>Vencimento</th><th>Dias restantes</th><th>Situação</th><th class="right">Ações</th></tr></thead><tbody id="rows"></tbody></table></div>
+<div id="empty" class="empty" hidden><strong>Nenhum certificado nesta consulta</strong><p>Revise os filtros ou atualize a leitura das pastas.</p></div>
+<div class="pagination"><span id="page-count"></span><div><label>Por página <select id="size"><option>25</option><option>50</option><option>100</option></select></label><button id="prev" class="secondary">Anterior</button><button id="next" class="secondary">Próxima</button></div></div>
+</section>
+<footer>Indicadores e gráficos acompanham os filtros. Datas exibidas no horário deste computador.<br>“Válido” descreve o prazo do certificado; a consulta não verifica revogação.</footer>
+</main>
+<dialog id="details"><div class="modal-head"><h2>Detalhes do certificado</h2><button class="close" aria-label="Fechar">×</button></div><div id="detail-content"></div>{% if admin %}<form id="password-form"><h3>Corrigir senha</h3><p>Informe a senha correta. Ela será validada antes de salvar.</p><label>Nova senha<input id="password" type="password" maxlength="512" autocomplete="new-password"></label><button class="primary">Validar e salvar</button><p id="password-result" aria-live="polite"></p></form>{% endif %}</dialog>
+<dialog id="help-modal"><div class="modal-head"><h2>Instalar neste computador</h2><button class="close" aria-label="Fechar">×</button></div><ol><li>A TI instala uma única vez a <strong>Autoridade HTTPS do Portal ICC</strong> nesta estação e confere a impressão digital informada pela TI.</li><li>A TI prepara o auxiliar e executa <strong>CONFIGURAR_AUXILIAR.bat</strong> uma vez no seu usuário do Windows.</li><li>Escolha o certificado na lista e clique em <strong>INSTALAR</strong>.</li><li>Permita que o navegador abra o Auxiliar ICC e confirme o cliente na janela do Windows.</li></ol><p>A instalação do certificado do cliente é feita no seu perfil do Windows. Não é necessário instalar Python nas estações.</p><p id="https-help"></p>{% if admin %}<a id="helper-download" class="primary" href="{{ url_for('helper_zip') }}">Baixar auxiliar configurado</a>{% endif %}<p class="muted">Suporte a arquivos A1 (.pfx e .p12). Tokens e cartões A3 usam o software do fabricante.</p></dialog>
+<dialog id="install-modal"><div class="modal-head"><h2>Instalação do certificado</h2><button class="close" aria-label="Fechar">×</button></div><p id="install-client"></p><p id="install-state" aria-live="polite"></p><a id="open-helper" class="primary">Abrir Auxiliar ICC</a><p class="muted">Se nada abrir, configure o auxiliar pela opção “Como instalar”. O painel só confirma a conclusão após o retorno do auxiliar.</p></dialog>
+<div id="toast" role="status" hidden></div>
+</body></html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de PDF para Excel - Carta Frete</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+        h1 {
+            color: #1f497d;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .drop-area {
+            border: 2px dashed #b4c6e7;
+            border-radius: 8px;
+            padding: 30px;
+            background-color: #f9fbfd;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .drop-area:hover {
+            border-color: #1f497d;
+            background-color: #e9f0f8;
+        }
+        input[type="file"] {
+            display: none;
+        }
+        .file-label {
+            color: #555;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .btn {
+            margin-top: 25px;
+            background-color: #1f497d;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #163459;
+        }
+        .file-name {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #1f497d;
+            font-size: 14px;
+        }
+        .loading {
+            display: none;
+            margin-top: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Converter Carta Frete (PDF -> Excel)</h1>
+    
+    <form data-download id="uploadForm" action="{{ url_for('convert') }}" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+        <div class="drop-area" onclick="document.getElementById('pdf_file').click();">
+            <span class="file-label">Clique para selecionar o PDF ou arraste o arquivo aqui</span>
+            <input type="file" name="pdf_file" id="pdf_file" accept=".pdf" required onchange="showFileName()">
+        </div>
+        
+        <div id="fileNameDisplay" class="file-name"></div>
+        
+        <button type="submit" class="btn">Processar e Baixar Excel</button>
+    </form>
+
+    <div id="loading" class="loading">
+        ⏳ Processando PDF... O download iniciará automaticamente.
+    </div>
+</div>
+
+
+
+<script src="{{ url_for('static', filename='download.js') }}"></script></body>
+</html>

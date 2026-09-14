@@ -1,0 +1,28 @@
+VALIDAÇÃO EXECUTADA
+Testes isolados, com banco temporário e credenciais sintéticas fora do pacote:
+- Criação inicial única de administrador.
+- Login e armazenamento de senha com scrypt.
+- Cookies HttpOnly e sessão persistente.
+- Menu filtrado e usuário sem nenhum aplicativo.
+- Bloqueio de URL direta, API, POST e área administrativa.
+- Cadastro, edição e rejeição de permissões inexistentes.
+- Proteção CSRF no login, administração e envio dos aplicativos.
+- Revogação de permissão aplicada à sessão já aberta.
+- Desativação de conta e redefinição de senha invalidando sessões.
+- Troca da própria senha, logout e expiração de sessão.
+- Reutilização de cookie anterior ao logout ou à redefinição rejeitada.
+- Limite de tentativas de login.
+- Proteção contra retirada da própria administração.
+- Persistência das contas ao reabrir o banco.
+- Download ZIP autenticado pela rota real.
+- Upload Amanda com CSRF e retorno do CSV como anexo, usando processamento
+  simulado para isolar a entrega; as regras de processamento não foram alteradas.
+- Sintaxe Python e renderização dos templates.
+
+Não executado: BATs e console interativo no Windows, teste visual em navegador
+ou acesso pela rede real da empresa. Use o checklist do LEIA-ME.txt no notebook.
+Nenhum banco de teste, senha ou chave de sessão foi incluído no ZIP.
+
+REFERÊNCIAS
+https://flask.palletsprojects.com/en/stable/web-security/
+https://werkzeug.palletsprojects.com/en/stable/utils/

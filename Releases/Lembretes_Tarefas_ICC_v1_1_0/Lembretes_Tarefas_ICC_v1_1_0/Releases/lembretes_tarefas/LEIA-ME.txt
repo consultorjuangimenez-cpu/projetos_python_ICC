@@ -1,0 +1,22 @@
+O instalador cria as copias anteriores dentro da pasta real do portal:
+Releases\lembretes_tarefas\DATA_HORA_IDENTIFICADOR
+
+Cada instalacao preserva o catalogo anterior e, quando houver, o codigo
+anterior deste aplicativo e um backup consistente do banco SQLite.
+Nao ha bancos ou credenciais de producao neste pacote.
+
+Versao 1.1.0 - 15/09/2026
+Correcao SMTP: o par usuario/senha do XML tem prioridade sobre o ambiente.
+Diagnostico TLS/AUTH sem envio de mensagens e sem exibir senha.
+Cadastro compartilhado de colaboradores, administrado pelo administrador.
+Preenchimento automatico do e-mail por nome e selecao explicita para homonimos.
+Migracao aditiva e transacional do banco para a versao 2.
+Tarefas, destinatarios anteriores, fila e historico preservados.
+
+Para voltar para 1.0.0, nao basta restaurar o codigo depois da migracao.
+Mantenha os processos parados e planeje a restauracao do banco compativel,
+conferindo envios posteriores ao backup para evitar recolocar envios na fila.
+
+Versao 1.0.0 - 15/09/2026
+Primeira entrega: cadastro, SQLite, fila duravel, recorrencias, SMTP,
+historico, controle de acesso, assistentes Windows e testes.

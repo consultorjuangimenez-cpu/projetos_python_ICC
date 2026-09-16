@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}Lembretes de Tarefas{% endblock %} | ICC</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='app.css',v=version) }}">
+<script src="{{ url_for('static',filename='colaboradores.js',v=version) }}" defer></script>
+<script src="{{ url_for('static',filename='app.js',v=version) }}" defer></script></head>
+<body><div class="app-shell"><header class="topbar"><a class="brand" href="{{ url_for('index') }}"><span class="brand-icon" aria-hidden="true">✓</span><span>ICC <small>CONTABILIDADE</small></span></a>
+<nav aria-label="Navegação do aplicativo"><a href="{{ url_for('index') }}">Lembretes</a><a href="{{ url_for('collaborators') }}">Colaboradores</a><a href="{{ url_for('history') }}">Histórico</a>{% if g.usuario and g.usuario.admin %}<a href="{{ url_for('test_email') }}">Teste de e-mail</a>{% endif %}<a href="/" target="_top">Portal</a></nav>
+<span class="user">{{ g.usuario.name if g.usuario else '' }}</span></header><main>
+{% for category,message in get_flashed_messages(with_categories=true) %}<div class="notice {{ category }}" role="status">{{ message }}</div>{% endfor %}
+{% block content %}{% endblock %}</main><footer>ICC Contabilidade · Lembretes de Tarefas <span>v{{ version }}</span></footer></div></body></html>

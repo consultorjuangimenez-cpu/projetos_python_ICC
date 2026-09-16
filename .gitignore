@@ -1,2 +1,7 @@
-C:\C\Projetos_Phyton\Portal_Apps\apps\Release*.sqlite3
+apps/Release*.sqlite3
 dados/
+logs/
+https_icc/
+Release/
+backups_atualizacao/
+2_iniciar_portal.bat

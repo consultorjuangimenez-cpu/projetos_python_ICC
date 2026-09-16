@@ -1,0 +1,1 @@
+{% if pager and pager.pages>1 %}<div class="pager">{% if pager.prev %}<a href="{{ pager.prev }}">← Anterior</a>{% endif %}<span>Página {{ pager.page }} de {{ pager.pages }}</span>{% if pager.next %}<a href="{{ pager.next }}">Próxima →</a>{% endif %}</div>{% endif %}

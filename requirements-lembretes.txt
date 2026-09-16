@@ -1,0 +1,2 @@
+# Flask e Waitress são reutilizados do portal, sem mudar suas versões.
+tzdata==2026.4

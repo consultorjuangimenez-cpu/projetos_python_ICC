@@ -1,0 +1,6 @@
+{% extends 'base.html' %}{% block content %}<section class="panel confirm-card"><p class="eyebrow">CONFIRMAÇÃO</p><h1>{{ label }}</h1><h2>{{ task.title }}</h2><p>{{ task.name }}<br><strong>{{ task.email }}</strong></p>
+{% if action=='send' %}<p>Será colocado na fila um lembrete adicional para envio assim que o agendador processar a solicitação.</p><p class="notice info">A próxima execução permanece em {{ task.next_ts|dt(task.timezone) }}. O envio manual ficará registrado no histórico.</p>
+{% elif action=='cancel' %}<p>Esta tarefa deixará de enviar lembretes. Os registros e o histórico serão preservados. Para programar novos lembretes após o cancelamento, cadastre outra tarefa.</p>
+{% elif action=='pause' %}<p>Os lembretes ficarão suspensos até a reativação.</p>
+{% else %}<p>O sistema retomará a partir da primeira ocorrência futura. Datas que passaram durante a pausa não serão enviadas.</p>{% endif %}
+<form method="post"><input type="hidden" name="csrf_token" value="{{ csrf_token() }}"><input type="hidden" name="action_token" value="{{ token }}"><div class="actions"><button class="{{ 'danger' if action=='cancel' else '' }}" type="submit">Confirmar: {{ label|lower }}</button><a class="button secondary" href="{{ url_for('detail',task_id=task.id) }}">Voltar</a></div></form></section>{% endblock %}

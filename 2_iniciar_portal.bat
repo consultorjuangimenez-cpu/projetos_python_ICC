@@ -1,7 +1,8 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-set "PORTAL_SMTP_SENHA=Icc@1590"
+set "PORTAL_SMTP_SENHA=Estefany!113"
+set "PORTAL_SMTP_SENHA_VIVIANEZ=Icc@123"
 title Portal Python - Servidor Interno
 if not exist ".venv\Scripts\python.exe" (
  echo Execute primeiro 1_instalar.bat.

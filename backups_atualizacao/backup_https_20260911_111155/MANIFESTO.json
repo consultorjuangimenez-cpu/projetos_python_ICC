@@ -1,8 +1,0 @@
-﻿{
-    "url_publica":  "https://10.10.10.154/certificados",
-    "criado_em":  "2026-09-11T11:11:55.2482734-04:00",
-    "rota_certificados":  "/certificados",
-    "portal_root":  "C:\\C\\Projetos_Phyton\\Portal_Apps",
-    "backend_port":  8080,
-    "portal_ip":  "10.10.10.154"
-}

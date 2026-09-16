@@ -1722,3 +1722,134 @@ sqlite3.OperationalError: database is locked
 2026-09-14 08:06:23,025 | INFO | waitress | Serving on http://127.0.0.1:8081
 2026-09-14 08:07:52,750 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
 2026-09-14 08:07:52,883 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-14 10:07:38,316 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Cadastros-11-09-2026_2026-09-11_08-41-21.xlsx | modificado=2026-09-11T08:41:15.804619 | candidatos=5
+2026-09-14 10:07:38,621 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | selecionado=A:\TI\Projetos_Python\Monitora_SIEG\Arquivos\Certidao-VisaoGeral-11-09-26_2026-09-11_08-41-34.xlsx | modificado=2026-09-11T08:41:30.145569 | candidatos=5
+2026-09-14 11:07:07,018 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:10:56,860 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:04,108 | WARNING | waitress.queue | Task queue depth is 1
+2026-09-14 11:11:04,650 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:06,566 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,034 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,049 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,340 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,635 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,649 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,684 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:07,850 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 11:11:23,983 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 13:13:55,321 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 13:15:02,268 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:02:55,116 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:03:07,357 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:22:17,566 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:23:47,499 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:23:55,848 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 14:24:09,122 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=ZILAUDIO LUIZ PEREIRA ADVOGADOS | total=22
+2026-09-14 14:24:27,140 | INFO | apps.buscar_pdf.app | ZIP gerado | cliente=ZILAUDIO LUIZ PEREIRA ADVOGADOS | arquivos=3
+2026-09-14 15:05:48,098 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 15:07:17,942 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 15:13:10,541 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 15:15:37,426 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 15:16:08,414 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-14 15:32:07,527 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:14:40,974 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 07:16:19,795 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 07:16:19,914 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 07:16:48,081 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:17:00,972 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:23:08,997 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:24:07,446 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=ICC CONTABILIDADE - IRACI CARLOS CAMICIA E CIA | total=67
+2026-09-15 07:24:20,918 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:28:40,586 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:29:17,474 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:31:57,855 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:32:30,834 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:33:11,942 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:33:11,942 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:33:25,478 | WARNING | pypdf._reader | invalid pdf header: b'\x0bsuel'
+2026-09-15 07:33:25,478 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:33:42,522 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:33:42,522 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:33:46,383 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:33:53,988 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:33:53,988 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:33:55,600 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:33:55,600 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:34:26,347 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:34:26,348 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:34:36,051 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:34:36,052 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:34:36,064 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:34:36,064 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:34:36,083 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:34:36,083 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:10,051 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:35:10,051 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:17,105 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:20,963 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:28,828 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:35:28,828 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:34,330 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:35:34,331 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:50,756 | WARNING | pypdf._reader | invalid pdf header: b'\xff\xd8\xff\xe0\x00'
+2026-09-15 07:35:50,771 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:57,204 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:35:57,204 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:35:58,566 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:35:58,567 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:01,486 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:36:01,486 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:23,211 | WARNING | pypdf._reader | invalid pdf header: b'\x10rafa'
+2026-09-15 07:36:23,211 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:30,758 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-15 07:36:30,758 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:30,768 | WARNING | pypdf._reader | invalid pdf header: b'\x04User'
+2026-09-15 07:36:30,768 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:30,966 | WARNING | pypdf._reader | invalid pdf header: b'\xff\xd8\xff\xe0\x00'
+2026-09-15 07:36:31,008 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:36:51,237 | WARNING | pypdf._reader | invalid pdf header: b'<!DOC'
+2026-09-15 07:36:51,238 | WARNING | pypdf._reader | EOF marker not found
+2026-09-15 07:40:09,713 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:45:20,351 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:45:23,086 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:45:23,268 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:47:23,786 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 07:57:12,740 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 08:00:38,735 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 09:22:11,568 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=361
+2026-09-15 14:03:18,879 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 14:03:19,045 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 14:14:23,162 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 14:14:23,366 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 14:18:25,802 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 14:18:26,022 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 14:48:29,336 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 14:48:29,568 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 14:50:20,074 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 14:50:20,234 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:20:15,149 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:20:15,349 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:33:36,201 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:39:19,093 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:39:19,215 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:40:02,237 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:40:02,358 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:46:33,133 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:46:33,277 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:49:22,018 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:49:22,142 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 15:52:58,452 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 15:52:58,581 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-15 19:10:54,853 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 19:11:31,494 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-15 19:11:31,609 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-16 07:22:58,448 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-16 07:22:58,615 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-16 07:29:26,005 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=362
+2026-09-16 07:31:05,880 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=362
+2026-09-16 08:38:45,642 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-16 08:38:45,882 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-16 09:16:29,717 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363
+2026-09-16 09:16:35,330 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363
+2026-09-16 09:16:48,017 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=AGRO FLORESTAL BELA VISTA | total=33
+2026-09-16 09:51:16,275 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363

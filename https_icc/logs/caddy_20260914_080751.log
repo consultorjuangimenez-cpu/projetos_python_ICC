@@ -13,3 +13,13 @@
 {"level":"info","ts":1789387671.8838127,"msg":"serving initial configuration"}
 {"level":"info","ts":1789387671.897226,"logger":"tls","msg":"storage cleaning happened too recently; skipping for now","storage":"FileStorage:C:/C/Projetos_Phyton/Portal_Apps/dados/caddy_https","instance":"f2b593a8-5904-49f2-a5f3-401482b054db","try_again":1789474071.897226,"try_again_in":86400}
 {"level":"info","ts":1789387671.897226,"logger":"tls","msg":"finished cleaning storage units"}
+{"level":"info","ts":1789413471.8798802,"logger":"tls","msg":"certificate is in configured renewal window based on expiration date","subjects":[],"expiration":1789427700,"ari_cert_id":"","next_ari_update":null,"renew_check_interval":600,"window_start":-6795364578.8713455,"window_end":-6795364578.8713455,"remaining":14228.1201197}
+{"level":"info","ts":1789413471.8842998,"logger":"tls.cache.maintenance","msg":"certificate expires soon; queuing for renewal","identifiers":["10.10.10.154"],"remaining":14228.1157003}
+{"level":"info","ts":1789413471.8842998,"logger":"tls.cache.maintenance","msg":"attempting certificate renewal","identifiers":["10.10.10.154"],"remaining":14228.1157003}
+{"level":"info","ts":1789413471.8955486,"logger":"tls.renew","msg":"acquiring lock","identifier":"10.10.10.154"}
+{"level":"info","ts":1789413471.900547,"logger":"tls.renew","msg":"lock acquired","identifier":"10.10.10.154"}
+{"level":"info","ts":1789413471.900547,"logger":"tls.renew","msg":"renewing certificate","identifier":"10.10.10.154","remaining":14228.0994529}
+{"level":"info","ts":1789413471.9293468,"logger":"tls.renew","msg":"certificate renewed successfully","identifier":"10.10.10.154","issuer":"local"}
+{"level":"info","ts":1789413471.9293468,"logger":"tls.renew","msg":"releasing lock","identifier":"10.10.10.154"}
+{"level":"info","ts":1789413471.9320705,"logger":"tls","msg":"reloading managed certificate","identifiers":["10.10.10.154"]}
+{"level":"info","ts":1789413471.9325752,"logger":"tls.cache","msg":"replaced certificate in cache","subjects":["10.10.10.154"],"new_expiration":1789456672}

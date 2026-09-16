@@ -63,7 +63,7 @@ PLANILHA_PRINCIPAL = str(caminho('aberturas', 'planilha'))
 SMTP_SERVER = CONFIG_APPS.get('aberturas', 'smtp_servidor', fallback='smtp.kinghost.net')
 SMTP_PORT = CONFIG_APPS.getint('aberturas', 'smtp_porta', fallback=465)
 EMAIL_REMETENTE = CONFIG_APPS.get('aberturas', 'email_remetente', fallback='')
-SENHA_REMETENTE = os.environ.get('PORTAL_SMTP_SENHA', '')
+SENHA_REMETENTE = os.environ.get('PORTAL_SMTP_SENHA_VIVIANEZ', '')
 
 # E-mails padrão com destinatários (separados por vírgula)
 EMAIL_VITORIA_DEFAULT = CONFIG_APPS.get('aberturas', 'email_vitoria', fallback='')

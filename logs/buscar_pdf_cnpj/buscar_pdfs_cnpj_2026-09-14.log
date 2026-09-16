@@ -4,3 +4,5 @@
 14/09/2026 07:46:24 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
 14/09/2026 08:06:22 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
 14/09/2026 08:07:52 | INFO | Diagnóstico do índice | banco=C:\C\Projetos_Phyton\Portal_Apps\dados\apps\buscar_pdf_cnpj\indice_pdfs.sqlite3 | total_banco=27831 | nesta_raiz=27831 | raiz=F:\Documentos\Rafael
+14/09/2026 14:25:32 | INFO | Busca concluída | cnpj=37227530000187 | encontrados=58 | total_pdfs=27831 | lidos=0 | reaproveitados=27831 | sem_texto=6224 | erros=23 | segundos=0.72
+14/09/2026 14:25:47 | INFO | ZIP gerado | cnpj=37227530000187 | arquivos=2 | bytes=314438

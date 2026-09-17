@@ -1853,3 +1853,28 @@ sqlite3.OperationalError: database is locked
 2026-09-16 09:16:35,330 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363
 2026-09-16 09:16:48,017 | INFO | apps.buscar_pdf.app | Documentos carregados | cliente=AGRO FLORESTAL BELA VISTA | total=33
 2026-09-16 09:51:16,275 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363
+2026-09-16 16:43:21,720 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-16 16:44:04,871 | ERROR | apps.buscar_pdf.app | Erro ao carregar clientes.
+Traceback (most recent call last):
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 318, in index
+    clients = get_clients()
+  File "C:\C\Projetos_Phyton\Portal_Apps\apps\buscar_pdf\app.py", line 98, in get_clients
+    raise FileNotFoundError(
+        f"Pasta principal não encontrada: {CLIENTS_ROOT}"
+    )
+FileNotFoundError: Pasta principal não encontrada: F:\Documentos\Rafael
+2026-09-16 16:51:29,068 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-16 16:51:29,208 | INFO | waitress | Serving on http://127.0.0.1:8081
+2026-09-16 16:51:41,189 | INFO | apps.buscar_pdf.app | Lista de clientes carregada | total=363
+2026-09-17 08:10:35,286 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:11:39,182 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:20:48,659 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:21:26,940 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:32:49,033 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:35:44,263 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:38:02,971 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:40:22,828 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:43:19,333 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 08:48:34,145 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 09:07:00,745 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py
+2026-09-17 09:11:39,522 | WARNING | apps.monitora_sieg.confronto | Monitor SIEG | MODIFICACAO-2026-09-10-R2 | modulo=C:\C\Projetos_Phyton\Portal_Apps\apps\monitora_sieg\confronto.py

@@ -19,8 +19,8 @@ def preparar(req, pasta):
     chaves = list(dict.fromkeys(re.sub(r'[\s./-]','',p).upper() for p in partes if p.strip()))
     if not chaves or any(not re.fullmatch(r'[0-9]{6}[A-Z0-9]{12}[0-9]{26}', c) for c in chaves):
         raise ValueError('Cada chave deve conter 44 caracteres válidos. Separe por linha, vírgula ou ponto e vírgula.')
-    if len(chaves)>1000:
-        raise ValueError('Limite de 1.000 chaves por pesquisa.')
+    if len(chaves)>3000:
+        raise ValueError('Limite de 3.000 chaves por pesquisa.')
     raiz = caminho('sieg','pasta_xmls')
     if not raiz.is_dir():
         raise ValueError('A pasta de XMLs não está disponível. Confira config_apps.ini e o acesso do servidor.')
